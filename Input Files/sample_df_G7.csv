@@ -1,0 +1,603 @@
+Samples,Time,Treatment,Fragment,TreatmentTank,Antibiotic,Dose,Pretreatment,PretreatmentAbx,PretreatmentDose,Tank,CoralID,Sample_control,quant_reading,PreQC,PostQC
+G7_T0_A1_1_a,0,Ampicillin Low,a,A1_1,Ampicillin,Low,Blank,Blank,Blank,7,A1_1_a,True Sample,12.797,89544,17602
+G7_T0_A1_1_b,0,Ampicillin Low,b,A1_1,Ampicillin,Low,Blank,Blank,Blank,7,A1_1_b,True Sample,2.373,46084,6368
+G7_T0_A1_1_c,0,Ampicillin Low,c,A1_1,Ampicillin,Low,Blank,Blank,Blank,7,A1_1_c,True Sample,14.555,81802,16273
+G7_T0_A1_1_d,0,Ampicillin Low,d,A1_1,Ampicillin,Low,Blank,Blank,Blank,7,A1_1_d,True Sample,4.393,70357,12639
+G7_T0_A1_2_a,0,Ampicillin Low,a,A1_2,Ampicillin,Low,Blank,Blank,Blank,8,A1_2_a,True Sample,15.035,76830,16095
+G7_T0_A1_2_b,0,Ampicillin Low,b,A1_2,Ampicillin,Low,Blank,Blank,Blank,8,A1_2_b,True Sample,3.976,71019,13417
+G7_T0_A1_2_c,0,Ampicillin Low,c,A1_2,Ampicillin,Low,Blank,Blank,Blank,8,A1_2_c,True Sample,2.118,53893,10901
+G7_T0_A1_2_d,0,Ampicillin Low,d,A1_2,Ampicillin,Low,Blank,Blank,Blank,8,A1_2_d,True Sample,4.755,101861,19491
+G7_T0_A1_3_a,0,Ampicillin Low,a,A1_3,Ampicillin,Low,Blank,Blank,Blank,9,A1_3_a,True Sample,6.324,72793,14346
+G7_T0_A1_3_b,0,Ampicillin Low,b,A1_3,Ampicillin,Low,Blank,Blank,Blank,9,A1_3_b,True Sample,14.006,76248,7213
+G7_T0_A1_3_c,0,Ampicillin Low,c,A1_3,Ampicillin,Low,Blank,Blank,Blank,9,A1_3_c,True Sample,7.189,74124,15313
+G7_T0_A1_3_d,0,Ampicillin Low,d,A1_3,Ampicillin,Low,Blank,Blank,Blank,9,A1_3_d,True Sample,1.817,43771,8276
+G7_T0_A2_1_a,0,Ampicillin High,a,A2_1,Ampicillin,High,Blank,Blank,Blank,10,A2_1_a,True Sample,2.016,96106,15794
+G7_T0_A2_1_b,0,Ampicillin High,b,A2_1,Ampicillin,High,Blank,Blank,Blank,10,A2_1_b,True Sample,2.801,78652,14446
+G7_T0_A2_1_c,0,Ampicillin High,c,A2_1,Ampicillin,High,Blank,Blank,Blank,10,A2_1_c,True Sample,9.032,79401,17299
+G7_T0_A2_1_d,0,Ampicillin High,d,A2_1,Ampicillin,High,Blank,Blank,Blank,10,A2_1_d,True Sample,9.78,90407,18242
+G7_T0_A2_2_a,0,Ampicillin High,a,A2_2,Ampicillin,High,Blank,Blank,Blank,11,A2_2_a,True Sample,6.254,74048,15629
+G7_T0_A2_2_b,0,Ampicillin High,b,A2_2,Ampicillin,High,Blank,Blank,Blank,11,A2_2_b,True Sample,3.517,78182,16362
+G7_T0_A2_2_c,0,Ampicillin High,c,A2_2,Ampicillin,High,Blank,Blank,Blank,11,A2_2_c,True Sample,8.227,67378,13101
+G7_T0_A2_2_d,0,Ampicillin High,d,A2_2,Ampicillin,High,Blank,Blank,Blank,11,A2_2_d,True Sample,6.94,125952,24298
+G7_T0_A2_3_a,0,Ampicillin High,a,A2_3,Ampicillin,High,Blank,Blank,Blank,12,A2_3_a,True Sample,15.607,71748,14685
+G7_T0_A2_3_b,0,Ampicillin High,b,A2_3,Ampicillin,High,Blank,Blank,Blank,12,A2_3_b,True Sample,2.787,65838,13636
+G7_T0_A2_3_c,0,Ampicillin High,c,A2_3,Ampicillin,High,Blank,Blank,Blank,12,A2_3_c,True Sample,1.986,70998,13663
+G7_T0_A2_3_d,0,Ampicillin High,d,A2_3,Ampicillin,High,Blank,Blank,Blank,12,A2_3_d,True Sample,2.962,77283,16214
+G7_T0_B1_a,0,Blank,a,B1,Blank,Blank,Blank,Blank,Blank,1,B1_a,True Sample,10.274,89066,15348
+G7_T0_B1_b,0,Blank,b,B1,Blank,Blank,Blank,Blank,Blank,1,B1_b,True Sample,2.67,58032,11292
+G7_T0_B1_c,0,Blank,c,B1,Blank,Blank,Blank,Blank,Blank,1,B1_c,True Sample,4.06,70271,13059
+G7_T0_B1_d,0,Blank,d,B1,Blank,Blank,Blank,Blank,Blank,1,B1_d,True Sample,6.637,98571,17228
+G7_T0_B2_a,0,Blank,a,B2,Blank,Blank,Blank,Blank,Blank,2,B2_a,True Sample,4.846,71641,14600
+G7_T0_B2_b,0,Blank,b,B2,Blank,Blank,Blank,Blank,Blank,2,B2_b,True Sample,15.043,78146,14676
+G7_T0_B2_c,0,Blank,c,B2,Blank,Blank,Blank,Blank,Blank,2,B2_c,True Sample,7.025,47319,9465
+G7_T0_B2_d,0,Blank,d,B2,Blank,Blank,Blank,Blank,Blank,2,B2_d,True Sample,2.039,68927,11495
+G7_T0_B3_a,0,Blank,a,B3,Blank,Blank,Blank,Blank,Blank,3,B3_a,True Sample,3.878,63226,12358
+G7_T0_B3_b,0,Blank,b,B3,Blank,Blank,Blank,Blank,Blank,3,B3_b,True Sample,24.449,77146,12683
+G7_T0_B3_c,0,Blank,c,B3,Blank,Blank,Blank,Blank,Blank,3,B3_c,True Sample,2.81,74942,15404
+G7_T0_B3_d,0,Blank,d,B3,Blank,Blank,Blank,Blank,Blank,3,B3_d,True Sample,2.868,78319,14329
+G7_T0_B4_a,0,Blank,a,B4,Blank,Blank,Blank,Blank,Blank,4,B4_a,True Sample,2.386,64658,12949
+G7_T0_B4_b,0,Blank,b,B4,Blank,Blank,Blank,Blank,Blank,4,B4_b,True Sample,4.592,69050,12421
+G7_T0_B4_c,0,Blank,c,B4,Blank,Blank,Blank,Blank,Blank,4,B4_c,True Sample,12.172,81933,16790
+G7_T0_B4_d,0,Blank,d,B4,Blank,Blank,Blank,Blank,Blank,4,B4_d,True Sample,4.206,76144,15557
+G7_T0_B5_a,0,Blank,a,B5,Blank,Blank,Blank,Blank,Blank,5,B5_a,True Sample,2.918,62363,13513
+G7_T0_B5_b,0,Blank,b,B5,Blank,Blank,Blank,Blank,Blank,5,B5_b,True Sample,12.727,84828,15645
+G7_T0_B5_c,0,Blank,c,B5,Blank,Blank,Blank,Blank,Blank,5,B5_c,True Sample,7.86,61432,12801
+G7_T0_B5_d,0,Blank,d,B5,Blank,Blank,Blank,Blank,Blank,5,B5_d,True Sample,10.806,31387,6788
+G7_T0_B6_a,0,Blank,a,B6,Blank,Blank,Blank,Blank,Blank,6,B6_a,True Sample,7.952,39970,6355
+G7_T0_B6_b,0,Blank,b,B6,Blank,Blank,Blank,Blank,Blank,6,B6_b,True Sample,2.144,66985,12523
+G7_T0_B6_c,0,Blank,c,B6,Blank,Blank,Blank,Blank,Blank,6,B6_c,True Sample,3.631,69418,12801
+G7_T0_B6_d,0,Blank,d,B6,Blank,Blank,Blank,Blank,Blank,6,B6_d,True Sample,5.551,63283,13428
+G7_T0_C1_1_a,0,Ciprofloxacin Low,a,C1_1,Ciprofloxacin,Low,Blank,Blank,Blank,19,C1_1_a,True Sample,19.074,71640,13332
+G7_T0_C1_1_b,0,Ciprofloxacin Low,b,C1_1,Ciprofloxacin,Low,Blank,Blank,Blank,19,C1_1_b,True Sample,14.586,66450,9779
+G7_T0_C1_1_c,0,Ciprofloxacin Low,c,C1_1,Ciprofloxacin,Low,Blank,Blank,Blank,19,C1_1_c,True Sample,10.971,70512,13622
+G7_T0_C1_1_d,0,Ciprofloxacin Low,d,C1_1,Ciprofloxacin,Low,Blank,Blank,Blank,19,C1_1_d,True Sample,29.784,66132,12803
+G7_T0_C1_2_a,0,Ciprofloxacin Low,a,C1_2,Ciprofloxacin,Low,Blank,Blank,Blank,20,C1_2_a,True Sample,19.164,84178,16062
+G7_T0_C1_2_b,0,Ciprofloxacin Low,b,C1_2,Ciprofloxacin,Low,Blank,Blank,Blank,20,C1_2_b,True Sample,7.857,101789,18798
+G7_T0_C1_2_c,0,Ciprofloxacin Low,c,C1_2,Ciprofloxacin,Low,Blank,Blank,Blank,20,C1_2_c,True Sample,9.004,91331,13657
+G7_T0_C1_2_d,0,Ciprofloxacin Low,d,C1_2,Ciprofloxacin,Low,Blank,Blank,Blank,20,C1_2_d,True Sample,11.551,68368,14321
+G7_T0_C1_3_a,0,Ciprofloxacin Low,a,C1_3,Ciprofloxacin,Low,Blank,Blank,Blank,21,C1_3_a,True Sample,17.371,84454,14500
+G7_T0_C1_3_b,0,Ciprofloxacin Low,b,C1_3,Ciprofloxacin,Low,Blank,Blank,Blank,21,C1_3_b,True Sample,22.895,68068,13000
+G7_T0_C1_3_c,0,Ciprofloxacin Low,c,C1_3,Ciprofloxacin,Low,Blank,Blank,Blank,21,C1_3_c,True Sample,3.842,75181,13439
+G7_T0_C1_3_d,0,Ciprofloxacin Low,d,C1_3,Ciprofloxacin,Low,Blank,Blank,Blank,21,C1_3_d,True Sample,9.01,58531,7379
+G7_T0_C2_1_a,0,Ciprofloxacin High,a,C2_1,Ciprofloxacin,High,Blank,Blank,Blank,22,C2_1_a,True Sample,10.041,76197,14618
+G7_T0_C2_1_b,0,Ciprofloxacin High,b,C2_1,Ciprofloxacin,High,Blank,Blank,Blank,22,C2_1_b,True Sample,16.893,57530,6641
+G7_T0_C2_1_c,0,Ciprofloxacin High,c,C2_1,Ciprofloxacin,High,Blank,Blank,Blank,22,C2_1_c,True Sample,12.35,70577,12039
+G7_T0_C2_1_d,0,Ciprofloxacin High,d,C2_1,Ciprofloxacin,High,Blank,Blank,Blank,22,C2_1_d,True Sample,10.381,84387,15672
+G7_T0_C2_2_a,0,Ciprofloxacin High,a,C2_2,Ciprofloxacin,High,Blank,Blank,Blank,23,C2_2_a,True Sample,18.269,75985,11627
+G7_T0_C2_2_b,0,Ciprofloxacin High,b,C2_2,Ciprofloxacin,High,Blank,Blank,Blank,23,C2_2_b,True Sample,23.8,78962,15629
+G7_T0_C2_2_c,0,Ciprofloxacin High,c,C2_2,Ciprofloxacin,High,Blank,Blank,Blank,23,C2_2_c,True Sample,25.855,78174,16352
+G7_T0_C2_2_d,0,Ciprofloxacin High,d,C2_2,Ciprofloxacin,High,Blank,Blank,Blank,23,C2_2_d,True Sample,21.396,75124,13989
+G7_T0_C2_3_a,0,Ciprofloxacin High,a,C2_3,Ciprofloxacin,High,Blank,Blank,Blank,24,C2_3_a,True Sample,11.032,81998,14580
+G7_T0_C2_3_b,0,Ciprofloxacin High,b,C2_3,Ciprofloxacin,High,Blank,Blank,Blank,24,C2_3_b,True Sample,6.07,130133,23261
+G7_T0_C2_3_c,0,Ciprofloxacin High,c,C2_3,Ciprofloxacin,High,Blank,Blank,Blank,24,C2_3_c,True Sample,20.45,79904,16655
+G7_T0_C2_3_d,0,Ciprofloxacin High,d,C2_3,Ciprofloxacin,High,Blank,Blank,Blank,24,C2_3_d,True Sample,16.511,73533,13913
+G7_T0_M1_1_a,0,Mixture Low,a,M1_1,Mixture,Low,Blank,Blank,Blank,25,M1_1_a,True Sample,4.744,52761,8281
+G7_T0_M1_1_b,0,Mixture Low,b,M1_1,Mixture,Low,Blank,Blank,Blank,25,M1_1_b,True Sample,7.03,59571,11354
+G7_T0_M1_1_c,0,Mixture Low,c,M1_1,Mixture,Low,Blank,Blank,Blank,25,M1_1_c,True Sample,25.287,58476,11418
+G7_T0_M1_1_d,0,Mixture Low,d,M1_1,Mixture,Low,Blank,Blank,Blank,25,M1_1_d,True Sample,12.491,77966,14899
+G7_T0_M1_2_a,0,Mixture Low,a,M1_2,Mixture,Low,Blank,Blank,Blank,26,M1_2_a,True Sample,17.968,83906,16230
+G7_T0_M1_2_b,0,Mixture Low,b,M1_2,Mixture,Low,Blank,Blank,Blank,26,M1_2_b,True Sample,21.108,75220,14362
+G7_T0_M1_2_c,0,Mixture Low,c,M1_2,Mixture,Low,Blank,Blank,Blank,26,M1_2_c,True Sample,26.783,76911,10875
+G7_T0_M1_2_d,0,Mixture Low,d,M1_2,Mixture,Low,Blank,Blank,Blank,26,M1_2_d,True Sample,24.016,77903,11869
+G7_T0_M1_3_a,0,Mixture Low,a,M1_3,Mixture,Low,Blank,Blank,Blank,27,M1_3_a,True Sample,14.574,89123,11193
+G7_T0_M1_3_b,0,Mixture Low,b,M1_3,Mixture,Low,Blank,Blank,Blank,27,M1_3_b,True Sample,6.046,139288,24467
+G7_T0_M1_3_c,0,Mixture Low,c,M1_3,Mixture,Low,Blank,Blank,Blank,27,M1_3_c,True Sample,12.489,83622,14904
+G7_T0_M1_3_d,0,Mixture Low,d,M1_3,Mixture,Low,Blank,Blank,Blank,27,M1_3_d,True Sample,17.226,58022,11412
+G7_T0_M2_1_a,0,Mixture High,a,M2_1,Mixture,High,Blank,Blank,Blank,28,M2_1_a,True Sample,17.009,83878,23843
+G7_T0_M2_1_b,0,Mixture High,b,M2_1,Mixture,High,Blank,Blank,Blank,28,M2_1_b,True Sample,8.074,68683,12627
+G7_T0_M2_1_c,0,Mixture High,c,M2_1,Mixture,High,Blank,Blank,Blank,28,M2_1_c,True Sample,9.75,64768,12996
+G7_T0_M2_1_d,0,Mixture High,d,M2_1,Mixture,High,Blank,Blank,Blank,28,M2_1_d,True Sample,3.643,73075,16406
+G7_T0_M2_2_a,0,Mixture High,a,M2_2,Mixture,High,Blank,Blank,Blank,29,M2_2_a,True Sample,7.983,65098,13540
+G7_T0_M2_2_b,0,Mixture High,b,M2_2,Mixture,High,Blank,Blank,Blank,29,M2_2_b,True Sample,7.615,69658,7343
+G7_T0_M2_2_c,0,Mixture High,c,M2_2,Mixture,High,Blank,Blank,Blank,29,M2_2_c,True Sample,2.547,58662,9765
+G7_T0_M2_2_d,0,Mixture High,d,M2_2,Mixture,High,Blank,Blank,Blank,29,M2_2_d,True Sample,6.812,128888,22155
+G7_T0_M2_3_a,0,Mixture High,a,M2_3,Mixture,High,Blank,Blank,Blank,30,M2_3_a,True Sample,11.004,83869,14245
+G7_T0_M2_3_b,0,Mixture High,b,M2_3,Mixture,High,Blank,Blank,Blank,30,M2_3_b,True Sample,3.66,74079,12780
+G7_T0_M2_3_c,0,Mixture High,c,M2_3,Mixture,High,Blank,Blank,Blank,30,M2_3_c,True Sample,4.531,72797,14807
+G7_T0_M2_3_d,0,Mixture High,d,M2_3,Mixture,High,Blank,Blank,Blank,30,M2_3_d,True Sample,4.276,76201,15281
+G7_T0_S1_1_a,0,Streptomycin Low,a,S1_1,Streptomycin,Low,Blank,Blank,Blank,13,S1_1_a,True Sample,12.961,105036,19005
+G7_T0_S1_1_b,0,Streptomycin Low,b,S1_1,Streptomycin,Low,Blank,Blank,Blank,13,S1_1_b,True Sample,2.059,67276,11075
+G7_T0_S1_1_c,0,Streptomycin Low,c,S1_1,Streptomycin,Low,Blank,Blank,Blank,13,S1_1_c,True Sample,3.949,91848,18107
+G7_T0_S1_1_d,0,Streptomycin Low,d,S1_1,Streptomycin,Low,Blank,Blank,Blank,13,S1_1_d,True Sample,1.776,69553,9033
+G7_T0_S1_2_a,0,Streptomycin Low,a,S1_2,Streptomycin,Low,Blank,Blank,Blank,14,S1_2_a,True Sample,3.921,47719,7523
+G7_T0_S1_2_b,0,Streptomycin Low,b,S1_2,Streptomycin,Low,Blank,Blank,Blank,14,S1_2_b,True Sample,13.91,84950,12387
+G7_T0_S1_2_c,0,Streptomycin Low,c,S1_2,Streptomycin,Low,Blank,Blank,Blank,14,S1_2_c,True Sample,4.37,61822,9717
+G7_T0_S1_2_d,0,Streptomycin Low,d,S1_2,Streptomycin,Low,Blank,Blank,Blank,14,S1_2_d,True Sample,4.539,67669,11184
+G7_T0_S1_3_a,0,Streptomycin Low,a,S1_3,Streptomycin,Low,Blank,Blank,Blank,15,S1_3_a,True Sample,7.634,75435,9305
+G7_T0_S1_3_b,0,Streptomycin Low,b,S1_3,Streptomycin,Low,Blank,Blank,Blank,15,S1_3_b,True Sample,22.952,78269,14821
+G7_T0_S1_3_c,0,Streptomycin Low,c,S1_3,Streptomycin,Low,Blank,Blank,Blank,15,S1_3_c,True Sample,16.692,109840,22458
+G7_T0_S1_3_d,0,Streptomycin Low,d,S1_3,Streptomycin,Low,Blank,Blank,Blank,15,S1_3_d,True Sample,13.72,93962,18015
+G7_T0_S2_1_a,0,Streptomycin High,a,S2_1,Streptomycin,High,Blank,Blank,Blank,16,S2_1_a,True Sample,11.921,80272,10009
+G7_T0_S2_1_b,0,Streptomycin High,b,S2_1,Streptomycin,High,Blank,Blank,Blank,16,S2_1_b,True Sample,26.696,56728,10979
+G7_T0_S2_1_c,0,Streptomycin High,c,S2_1,Streptomycin,High,Blank,Blank,Blank,16,S2_1_c,True Sample,29.168,74315,14932
+G7_T0_S2_1_d,0,Streptomycin High,d,S2_1,Streptomycin,High,Blank,Blank,Blank,16,S2_1_d,True Sample,19.056,79399,14068
+G7_T0_S2_2_a,0,Streptomycin High,a,S2_2,Streptomycin,High,Blank,Blank,Blank,17,S2_2_a,True Sample,5.011,73612,11910
+G7_T0_S2_2_b,0,Streptomycin High,b,S2_2,Streptomycin,High,Blank,Blank,Blank,17,S2_2_b,True Sample,3.704,78397,19688
+G7_T0_S2_2_c,0,Streptomycin High,c,S2_2,Streptomycin,High,Blank,Blank,Blank,17,S2_2_c,True Sample,23.154,82151,14445
+G7_T0_S2_2_d,0,Streptomycin High,d,S2_2,Streptomycin,High,Blank,Blank,Blank,17,S2_2_d,True Sample,25.158,70043,14074
+G7_T0_S2_3_a,0,Streptomycin High,a,S2_3,Streptomycin,High,Blank,Blank,Blank,18,S2_3_a,True Sample,22.556,78649,13449
+G7_T0_S2_3_b,0,Streptomycin High,b,S2_3,Streptomycin,High,Blank,Blank,Blank,18,S2_3_b,True Sample,11.209,75926,13894
+G7_T0_S2_3_c,0,Streptomycin High,c,S2_3,Streptomycin,High,Blank,Blank,Blank,18,S2_3_c,True Sample,9.376,79454,15293
+G7_T0_S2_3_d,0,Streptomycin High,d,S2_3,Streptomycin,High,Blank,Blank,Blank,18,S2_3_d,True Sample,6.363,66064,10035
+G7_T12_A1_1_a,12,Ampicillin Low,a,A1_1,Ampicillin,Low,Ampicillin Low,Ampicillin,Low,7,A1_1_a,True Sample,4.467,71110,10912
+G7_T12_A1_1_b,12,Ampicillin Low,b,A1_1,Ampicillin,Low,Ampicillin Low,Ampicillin,Low,7,A1_1_b,True Sample,16.692,76556,8744
+G7_T12_A1_1_c,12,Ampicillin Low,c,A1_1,Ampicillin,Low,Ampicillin Low,Ampicillin,Low,7,A1_1_c,True Sample,11.107,66757,11978
+G7_T12_A1_1_d,12,Ampicillin Low,d,A1_1,Ampicillin,Low,Ampicillin Low,Ampicillin,Low,7,A1_1_d,True Sample,6.243,49693,9370
+G7_T12_A1_2_a,12,Ampicillin Low,a,A1_2,Ampicillin,Low,Ampicillin Low,Ampicillin,Low,8,A1_2_a,True Sample,13.219,71244,13949
+G7_T12_A1_2_b,12,Ampicillin Low,b,A1_2,Ampicillin,Low,Ampicillin Low,Ampicillin,Low,8,A1_2_b,True Sample,7.631,64084,11023
+G7_T12_A1_2_c,12,Ampicillin Low,c,A1_2,Ampicillin,Low,Ampicillin Low,Ampicillin,Low,8,A1_2_c,True Sample,12.14,61867,9376
+G7_T12_A1_2_d,12,Ampicillin Low,d,A1_2,Ampicillin,Low,Ampicillin Low,Ampicillin,Low,8,A1_2_d,True Sample,12.432,70188,12646
+G7_T12_A1_3_a,12,Ampicillin Low,a,A1_3,Ampicillin,Low,Ampicillin Low,Ampicillin,Low,9,A1_3_a,True Sample,4.284,68835,13198
+G7_T12_A1_3_b,12,Ampicillin Low,b,A1_3,Ampicillin,Low,Ampicillin Low,Ampicillin,Low,9,A1_3_b,True Sample,16.511,73330,7686
+G7_T12_A1_3_c,12,Ampicillin Low,c,A1_3,Ampicillin,Low,Ampicillin Low,Ampicillin,Low,9,A1_3_c,True Sample,4.711,66969,12117
+G7_T12_A1_3_d,12,Ampicillin Low,d,A1_3,Ampicillin,Low,Ampicillin Low,Ampicillin,Low,9,A1_3_d,True Sample,8.301,75704,10128
+G7_T12_A2_1_a,12,Ampicillin High,a,A2_1,Ampicillin,High,Ampicillin High,Ampicillin,High,10,A2_1_a,True Sample,2.974,64816,8909
+G7_T12_A2_1_b,12,Ampicillin High,b,A2_1,Ampicillin,High,Ampicillin High,Ampicillin,High,10,A2_1_b,True Sample,7.559,73359,13109
+G7_T12_A2_1_c,12,Ampicillin High,c,A2_1,Ampicillin,High,Ampicillin High,Ampicillin,High,10,A2_1_c,True Sample,7.538,81746,15458
+G7_T12_A2_1_d,12,Ampicillin High,d,A2_1,Ampicillin,High,Ampicillin High,Ampicillin,High,10,A2_1_d,True Sample,5.035,75712,15325
+G7_T12_A2_2_a,12,Ampicillin High,a,A2_2,Ampicillin,High,Ampicillin High,Ampicillin,High,11,A2_2_a,True Sample,5.029,62584,11999
+G7_T12_A2_2_b,12,Ampicillin High,b,A2_2,Ampicillin,High,Ampicillin High,Ampicillin,High,11,A2_2_b,True Sample,2.932,58006,12395
+G7_T12_A2_2_c,12,Ampicillin High,c,A2_2,Ampicillin,High,Ampicillin High,Ampicillin,High,11,A2_2_c,True Sample,4.176,66410,12335
+G7_T12_A2_2_d,12,Ampicillin High,d,A2_2,Ampicillin,High,Ampicillin High,Ampicillin,High,11,A2_2_d,True Sample,3.533,64630,11659
+G7_T12_A2_3_a,12,Ampicillin High,a,A2_3,Ampicillin,High,Ampicillin High,Ampicillin,High,12,A2_3_a,True Sample,8.1,39966,6446
+G7_T12_A2_3_b,12,Ampicillin High,b,A2_3,Ampicillin,High,Ampicillin High,Ampicillin,High,12,A2_3_b,True Sample,6.8,23462,4909
+G7_T12_A2_3_c,12,Ampicillin High,c,A2_3,Ampicillin,High,Ampicillin High,Ampicillin,High,12,A2_3_c,True Sample,2.1,51350,10616
+G7_T12_A2_3_d,12,Ampicillin High,d,A2_3,Ampicillin,High,Ampicillin High,Ampicillin,High,12,A2_3_d,True Sample,2,71399,14146
+G7_T12_B2_a,12,Blank,a,B2,Blank,Blank,Blank,Blank,Blank,2,B2_a,True Sample,22.577,61377,11795
+G7_T12_B2_b,12,Blank,b,B2,Blank,Blank,Blank,Blank,Blank,2,B2_b,True Sample,5.68,62555,13143
+G7_T12_B2_c,12,Blank,c,B2,Blank,Blank,Blank,Blank,Blank,2,B2_c,True Sample,27.552,57709,12049
+G7_T12_B2_d,12,Blank,d,B2,Blank,Blank,Blank,Blank,Blank,2,B2_d,True Sample,25.046,72903,9941
+G7_T12_B3_a,12,Blank,a,B3,Blank,Blank,Blank,Blank,Blank,3,B3_a,True Sample,7.721,63773,12039
+G7_T12_B3_b,12,Blank,b,B3,Blank,Blank,Blank,Blank,Blank,3,B3_b,True Sample,25.266,65537,13298
+G7_T12_B3_c,12,Blank,c,B3,Blank,Blank,Blank,Blank,Blank,3,B3_c,True Sample,27.994,73135,14413
+G7_T12_B3_d,12,Blank,d,B3,Blank,Blank,Blank,Blank,Blank,3,B3_d,True Sample,22.736,75292,15431
+G7_T12_B4_a,12,Blank,a,B4,Blank,Blank,Blank,Blank,Blank,4,B4_a,True Sample,7.97,75980,9522
+G7_T12_B4_b,12,Blank,b,B4,Blank,Blank,Blank,Blank,Blank,4,B4_b,True Sample,4.449,58083,11105
+G7_T12_B4_c,12,Blank,c,B4,Blank,Blank,Blank,Blank,Blank,4,B4_c,True Sample,12.05,83990,17247
+G7_T12_B4_d,12,Blank,d,B4,Blank,Blank,Blank,Blank,Blank,4,B4_d,True Sample,24.707,56837,11138
+G7_T12_B5_a,12,Blank,a,B5,Blank,Blank,Blank,Blank,Blank,5,B5_a,True Sample,8.947,66935,13587
+G7_T12_B5_b,12,Blank,b,B5,Blank,Blank,Blank,Blank,Blank,5,B5_b,True Sample,6.805,54874,10419
+G7_T12_B5_c,12,Blank,c,B5,Blank,Blank,Blank,Blank,Blank,5,B5_c,True Sample,7.249,64076,12306
+G7_T12_B5_d,12,Blank,d,B5,Blank,Blank,Blank,Blank,Blank,5,B5_d,True Sample,19.266,75991,14226
+G7_T12_B6_a,12,Blank,a,B6,Blank,Blank,Blank,Blank,Blank,6,B6_a,True Sample,8.409,55991,11548
+G7_T12_B6_b,12,Blank,b,B6,Blank,Blank,Blank,Blank,Blank,6,B6_b,True Sample,20.3,70581,14742
+G7_T12_B6_c,12,Blank,c,B6,Blank,Blank,Blank,Blank,Blank,6,B6_c,True Sample,9.803,71779,14882
+G7_T12_B6_d,12,Blank,d,B6,Blank,Blank,Blank,Blank,Blank,6,B6_d,True Sample,6.844,68811,13422
+G7_T12_C1_1_a,12,Ciprofloxacin Low,a,C1_1,Ciprofloxacin,Low,Ciprofloxacin Low,Ciprofloxacin,Low,19,C1_1_a,True Sample,8.9,68630,9344
+G7_T12_C1_1_b,12,Ciprofloxacin Low,b,C1_1,Ciprofloxacin,Low,Ciprofloxacin Low,Ciprofloxacin,Low,19,C1_1_b,True Sample,5.7,58177,11988
+G7_T12_C1_1_c,12,Ciprofloxacin Low,c,C1_1,Ciprofloxacin,Low,Ciprofloxacin Low,Ciprofloxacin,Low,19,C1_1_c,True Sample,13.6,69826,13429
+G7_T12_C1_1_d,12,Ciprofloxacin Low,d,C1_1,Ciprofloxacin,Low,Ciprofloxacin Low,Ciprofloxacin,Low,19,C1_1_d,True Sample,5.4,63908,11838
+G7_T12_C1_2_a,12,Ciprofloxacin Low,a,C1_2,Ciprofloxacin,Low,Ciprofloxacin Low,Ciprofloxacin,Low,20,C1_2_a,True Sample,11.2,103272,18929
+G7_T12_C1_2_b,12,Ciprofloxacin Low,b,C1_2,Ciprofloxacin,Low,Ciprofloxacin Low,Ciprofloxacin,Low,20,C1_2_b,True Sample,8.6,69908,10592
+G7_T12_C1_2_c,12,Ciprofloxacin Low,c,C1_2,Ciprofloxacin,Low,Ciprofloxacin Low,Ciprofloxacin,Low,20,C1_2_c,True Sample,1.9,59674,11189
+G7_T12_C1_2_d,12,Ciprofloxacin Low,d,C1_2,Ciprofloxacin,Low,Ciprofloxacin Low,Ciprofloxacin,Low,20,C1_2_d,True Sample,4.5,53777,9354
+G7_T12_C1_3_a,12,Ciprofloxacin Low,a,C1_3,Ciprofloxacin,Low,Ciprofloxacin Low,Ciprofloxacin,Low,21,C1_3_a,True Sample,7.2,81095,16616
+G7_T12_C1_3_b,12,Ciprofloxacin Low,b,C1_3,Ciprofloxacin,Low,Ciprofloxacin Low,Ciprofloxacin,Low,21,C1_3_b,True Sample,20.4,76412,14998
+G7_T12_C1_3_c,12,Ciprofloxacin Low,c,C1_3,Ciprofloxacin,Low,Ciprofloxacin Low,Ciprofloxacin,Low,21,C1_3_c,True Sample,6.1,68132,13142
+G7_T12_C1_3_d,12,Ciprofloxacin Low,d,C1_3,Ciprofloxacin,Low,Ciprofloxacin Low,Ciprofloxacin,Low,21,C1_3_d,True Sample,6.9,76692,15638
+G7_T12_C2_1_a,12,Ciprofloxacin High,a,C2_1,Ciprofloxacin,High,Ciprofloxacin High,Ciprofloxacin,High,22,C2_1_a,True Sample,5.8,87495,16761
+G7_T12_C2_1_b,12,Ciprofloxacin High,b,C2_1,Ciprofloxacin,High,Ciprofloxacin High,Ciprofloxacin,High,22,C2_1_b,True Sample,2.3,56592,5118
+G7_T12_C2_1_c,12,Ciprofloxacin High,c,C2_1,Ciprofloxacin,High,Ciprofloxacin High,Ciprofloxacin,High,22,C2_1_c,True Sample,11.2,79964,15395
+G7_T12_C2_1_d,12,Ciprofloxacin High,d,C2_1,Ciprofloxacin,High,Ciprofloxacin High,Ciprofloxacin,High,22,C2_1_d,True Sample,4.4,66941,11816
+G7_T12_C2_2_a,12,Ciprofloxacin High,a,C2_2,Ciprofloxacin,High,Ciprofloxacin High,Ciprofloxacin,High,23,C2_2_a,True Sample,7.4,92278,14132
+G7_T12_C2_2_b,12,Ciprofloxacin High,b,C2_2,Ciprofloxacin,High,Ciprofloxacin High,Ciprofloxacin,High,23,C2_2_b,True Sample,4.6,59197,9318
+G7_T12_C2_2_c,12,Ciprofloxacin High,c,C2_2,Ciprofloxacin,High,Ciprofloxacin High,Ciprofloxacin,High,23,C2_2_c,True Sample,3,68868,13247
+G7_T12_C2_2_d,12,Ciprofloxacin High,d,C2_2,Ciprofloxacin,High,Ciprofloxacin High,Ciprofloxacin,High,23,C2_2_d,True Sample,2,38215,7471
+G7_T12_C2_3_a,12,Ciprofloxacin High,a,C2_3,Ciprofloxacin,High,Ciprofloxacin High,Ciprofloxacin,High,24,C2_3_a,True Sample,2.4,63843,14918
+G7_T12_C2_3_b,12,Ciprofloxacin High,b,C2_3,Ciprofloxacin,High,Ciprofloxacin High,Ciprofloxacin,High,24,C2_3_b,True Sample,2.3,71460,10194
+G7_T12_C2_3_c,12,Ciprofloxacin High,c,C2_3,Ciprofloxacin,High,Ciprofloxacin High,Ciprofloxacin,High,24,C2_3_c,True Sample,4.6,70175,11126
+G7_T12_C2_3_d,12,Ciprofloxacin High,d,C2_3,Ciprofloxacin,High,Ciprofloxacin High,Ciprofloxacin,High,24,C2_3_d,True Sample,2.9,59731,9542
+G7_T12_M1_1_a,12,Mixture Low,a,M1_1,Mixture,Low,Mixture Low,Mixture,Low,25,M1_1_a,True Sample,10.4,58956,6040
+G7_T12_M1_1_b,12,Mixture Low,b,M1_1,Mixture,Low,Mixture Low,Mixture,Low,25,M1_1_b,True Sample,1.9,64293,11736
+G7_T12_M1_1_c,12,Mixture Low,c,M1_1,Mixture,Low,Mixture Low,Mixture,Low,25,M1_1_c,True Sample,4.8,64712,10076
+G7_T12_M1_1_d,12,Mixture Low,d,M1_1,Mixture,Low,Mixture Low,Mixture,Low,25,M1_1_d,True Sample,5.3,58454,11157
+G7_T12_M1_2_a,12,Mixture Low,a,M1_2,Mixture,Low,Mixture Low,Mixture,Low,26,M1_2_a,True Sample,6.5,80766,12015
+G7_T12_M1_2_b,12,Mixture Low,b,M1_2,Mixture,Low,Mixture Low,Mixture,Low,26,M1_2_b,True Sample,4.5,46210,4286
+G7_T12_M1_2_c,12,Mixture Low,c,M1_2,Mixture,Low,Mixture Low,Mixture,Low,26,M1_2_c,True Sample,1.9,45143,4824
+G7_T12_M1_2_d,12,Mixture Low,d,M1_2,Mixture,Low,Mixture Low,Mixture,Low,26,M1_2_d,True Sample,2.9,47527,2850
+G7_T12_M1_3_a,12,Mixture Low,a,M1_3,Mixture,Low,Mixture Low,Mixture,Low,27,M1_3_a,True Sample,2.4,46118,4406
+G7_T12_M1_3_b,12,Mixture Low,b,M1_3,Mixture,Low,Mixture Low,Mixture,Low,27,M1_3_b,True Sample,3.4,57878,7140
+G7_T12_M1_3_c,12,Mixture Low,c,M1_3,Mixture,Low,Mixture Low,Mixture,Low,27,M1_3_c,True Sample,2.8,56958,5707
+G7_T12_M1_3_d,12,Mixture Low,d,M1_3,Mixture,Low,Mixture Low,Mixture,Low,27,M1_3_d,True Sample,4.4,59135,7259
+G7_T12_M2_1_a,12,Mixture High,a,M2_1,Mixture,High,Mixture High,Mixture,High,28,M2_1_a,True Sample,2.4,50322,8614
+G7_T12_M2_1_b,12,Mixture High,b,M2_1,Mixture,High,Mixture High,Mixture,High,28,M2_1_b,True Sample,3.6,44504,7064
+G7_T12_M2_1_c,12,Mixture High,c,M2_1,Mixture,High,Mixture High,Mixture,High,28,M2_1_c,True Sample,2,56244,8787
+G7_T12_M2_1_d,12,Mixture High,d,M2_1,Mixture,High,Mixture High,Mixture,High,28,M2_1_d,True Sample,11.9,73239,8016
+G7_T12_M2_2_b,12,Mixture High,b,M2_2,Mixture,High,Mixture High,Mixture,High,29,M2_2_b,True Sample,2.7,56236,8813
+G7_T12_M2_2_c,12,Mixture High,c,M2_2,Mixture,High,Mixture High,Mixture,High,29,M2_2_c,True Sample,2.2,43155,9537
+G7_T12_M2_2_d,12,Mixture High,d,M2_2,Mixture,High,Mixture High,Mixture,High,29,M2_2_d,True Sample,4.1,51692,6243
+G7_T12_M2_3_a,12,Mixture High,a,M2_3,Mixture,High,Mixture High,Mixture,High,30,M2_3_a,True Sample,3.5,52846,2987
+G7_T12_M2_3_b,12,Mixture High,b,M2_3,Mixture,High,Mixture High,Mixture,High,30,M2_3_b,True Sample,5.6,48992,5683
+G7_T12_M2_3_c,12,Mixture High,c,M2_3,Mixture,High,Mixture High,Mixture,High,30,M2_3_c,True Sample,1.9,40412,8637
+G7_T12_M2_3_d,12,Mixture High,d,M2_3,Mixture,High,Mixture High,Mixture,High,30,M2_3_d,True Sample,2.7,61315,8379
+G7_T12_S1_1_a,12,Streptomycin Low,a,S1_1,Streptomycin,Low,Streptomycin Low,Streptomycin,Low,13,S1_1_a,True Sample,2.5,69086,14253
+G7_T12_S1_1_b,12,Streptomycin Low,b,S1_1,Streptomycin,Low,Streptomycin Low,Streptomycin,Low,13,S1_1_b,True Sample,2,66919,12811
+G7_T12_S1_1_c,12,Streptomycin Low,c,S1_1,Streptomycin,Low,Streptomycin Low,Streptomycin,Low,13,S1_1_c,True Sample,19.3,77421,16898
+G7_T12_S1_1_d,12,Streptomycin Low,d,S1_1,Streptomycin,Low,Streptomycin Low,Streptomycin,Low,13,S1_1_d,True Sample,3.1,71205,16388
+G7_T12_S1_2_a,12,Streptomycin Low,a,S1_2,Streptomycin,Low,Streptomycin Low,Streptomycin,Low,14,S1_2_a,True Sample,10.8,58901,10780
+G7_T12_S1_2_b,12,Streptomycin Low,b,S1_2,Streptomycin,Low,Streptomycin Low,Streptomycin,Low,14,S1_2_b,True Sample,6.1,68373,13172
+G7_T12_S1_2_c,12,Streptomycin Low,c,S1_2,Streptomycin,Low,Streptomycin Low,Streptomycin,Low,14,S1_2_c,True Sample,6.2,70297,15972
+G7_T12_S1_2_d,12,Streptomycin Low,d,S1_2,Streptomycin,Low,Streptomycin Low,Streptomycin,Low,14,S1_2_d,True Sample,17.4,69181,16682
+G7_T12_S1_3_a,12,Streptomycin Low,a,S1_3,Streptomycin,Low,Streptomycin Low,Streptomycin,Low,15,S1_3_a,True Sample,8.6,69096,13532
+G7_T12_S1_3_b,12,Streptomycin Low,b,S1_3,Streptomycin,Low,Streptomycin Low,Streptomycin,Low,15,S1_3_b,True Sample,4.4,54178,8362
+G7_T12_S1_3_c,12,Streptomycin Low,c,S1_3,Streptomycin,Low,Streptomycin Low,Streptomycin,Low,15,S1_3_c,True Sample,13.9,74233,14659
+G7_T12_S1_3_d,12,Streptomycin Low,d,S1_3,Streptomycin,Low,Streptomycin Low,Streptomycin,Low,15,S1_3_d,True Sample,2.1,55788,10209
+G7_T12_S2_1_a,12,Streptomycin High,a,S2_1,Streptomycin,High,Streptomycin High,Streptomycin,High,16,S2_1_a,True Sample,8,71477,10159
+G7_T12_S2_1_b,12,Streptomycin High,b,S2_1,Streptomycin,High,Streptomycin High,Streptomycin,High,16,S2_1_b,True Sample,2.8,55793,9018
+G7_T12_S2_1_c,12,Streptomycin High,c,S2_1,Streptomycin,High,Streptomycin High,Streptomycin,High,16,S2_1_c,True Sample,14.4,73746,14745
+G7_T12_S2_1_d,12,Streptomycin High,d,S2_1,Streptomycin,High,Streptomycin High,Streptomycin,High,16,S2_1_d,True Sample,2.7,83105,12803
+G7_T12_S2_2_a,12,Streptomycin High,a,S2_2,Streptomycin,High,Streptomycin High,Streptomycin,High,17,S2_2_a,True Sample,13.2,77285,15992
+G7_T12_S2_2_b,12,Streptomycin High,b,S2_2,Streptomycin,High,Streptomycin High,Streptomycin,High,17,S2_2_b,True Sample,1.8,50015,10690
+G7_T12_S2_2_c,12,Streptomycin High,c,S2_2,Streptomycin,High,Streptomycin High,Streptomycin,High,17,S2_2_c,True Sample,11.7,71661,10533
+G7_T12_S2_2_d,12,Streptomycin High,d,S2_2,Streptomycin,High,Streptomycin High,Streptomycin,High,17,S2_2_d,True Sample,1.7,44281,7453
+G7_T12_S2_3_a,12,Streptomycin High,a,S2_3,Streptomycin,High,Streptomycin High,Streptomycin,High,18,S2_3_a,True Sample,2.5,57314,8338
+G7_T12_S2_3_b,12,Streptomycin High,b,S2_3,Streptomycin,High,Streptomycin High,Streptomycin,High,18,S2_3_b,True Sample,3.9,41343,6827
+G7_T12_S2_3_c,12,Streptomycin High,c,S2_3,Streptomycin,High,Streptomycin High,Streptomycin,High,18,S2_3_c,True Sample,6.1,95194,18826
+G7_T12_S2_3_d,12,Streptomycin High,d,S2_3,Streptomycin,High,Streptomycin High,Streptomycin,High,18,S2_3_d,True Sample,2.8,57213,12286
+G7_T24_A1_1_a,24,Ampicillin Low,a,A1_1,Ampicillin,Low,Ampicillin Low,Ampicillin,Low,7,A1_1_a,True Sample,4.6,69671,15314
+G7_T24_A1_1_b,24,Ampicillin Low,b,A1_1,Ampicillin,Low,Ampicillin Low,Ampicillin,Low,7,A1_1_b,True Sample,5.4,72672,13060
+G7_T24_A1_1_c,24,Ampicillin Low,c,A1_1,Ampicillin,Low,Ampicillin Low,Ampicillin,Low,7,A1_1_c,True Sample,3.2,64476,15257
+G7_T24_A1_1_d,24,Ampicillin Low,d,A1_1,Ampicillin,Low,Ampicillin Low,Ampicillin,Low,7,A1_1_d,True Sample,3.3,59402,9481
+G7_T24_A1_2_a,24,Ampicillin Low,a,A1_2,Ampicillin,Low,Ampicillin Low,Ampicillin,Low,8,A1_2_a,True Sample,2.3,63008,12841
+G7_T24_A1_2_b,24,Ampicillin Low,b,A1_2,Ampicillin,Low,Ampicillin Low,Ampicillin,Low,8,A1_2_b,True Sample,4.5,63236,12669
+G7_T24_A1_2_c,24,Ampicillin Low,c,A1_2,Ampicillin,Low,Ampicillin Low,Ampicillin,Low,8,A1_2_c,True Sample,3.2,84890,17860
+G7_T24_A1_2_d,24,Ampicillin Low,d,A1_2,Ampicillin,Low,Ampicillin Low,Ampicillin,Low,8,A1_2_d,True Sample,4,79933,17399
+G7_T24_A1_3_a,24,Ampicillin Low,a,A1_3,Ampicillin,Low,Ampicillin Low,Ampicillin,Low,9,A1_3_a,True Sample,4.8,35924,3353
+G7_T24_A1_3_b,24,Ampicillin Low,b,A1_3,Ampicillin,Low,Ampicillin Low,Ampicillin,Low,9,A1_3_b,True Sample,20,71358,3555
+G7_T24_A1_3_c,24,Ampicillin Low,c,A1_3,Ampicillin,Low,Ampicillin Low,Ampicillin,Low,9,A1_3_c,True Sample,4.9,58450,13115
+G7_T24_A1_3_d,24,Ampicillin Low,d,A1_3,Ampicillin,Low,Ampicillin Low,Ampicillin,Low,9,A1_3_d,True Sample,3.2,79782,15296
+G7_T24_A2_1_a,24,Ampicillin High,a,A2_1,Ampicillin,High,Ampicillin High,Ampicillin,High,10,A2_1_a,True Sample,3,62739,13334
+G7_T24_A2_1_b,24,Ampicillin High,b,A2_1,Ampicillin,High,Ampicillin High,Ampicillin,High,10,A2_1_b,True Sample,3.1,58129,11665
+G7_T24_A2_1_c,24,Ampicillin High,c,A2_1,Ampicillin,High,Ampicillin High,Ampicillin,High,10,A2_1_c,True Sample,3.8,56573,10799
+G7_T24_A2_1_d,24,Ampicillin High,d,A2_1,Ampicillin,High,Ampicillin High,Ampicillin,High,10,A2_1_d,True Sample,3.6,69032,14507
+G7_T24_A2_2_a,24,Ampicillin High,a,A2_2,Ampicillin,High,Ampicillin High,Ampicillin,High,11,A2_2_a,True Sample,6.4,50348,10864
+G7_T24_A2_2_b,24,Ampicillin High,b,A2_2,Ampicillin,High,Ampicillin High,Ampicillin,High,11,A2_2_b,True Sample,6.5,56132,11151
+G7_T24_A2_2_c,24,Ampicillin High,c,A2_2,Ampicillin,High,Ampicillin High,Ampicillin,High,11,A2_2_c,True Sample,20.1,69262,13270
+G7_T24_A2_2_d,24,Ampicillin High,d,A2_2,Ampicillin,High,Ampicillin High,Ampicillin,High,11,A2_2_d,True Sample,6.9,64714,11968
+G7_T24_A2_3_a,24,Ampicillin High,a,A2_3,Ampicillin,High,Ampicillin High,Ampicillin,High,12,A2_3_a,True Sample,12.2,56067,12139
+G7_T24_A2_3_b,24,Ampicillin High,b,A2_3,Ampicillin,High,Ampicillin High,Ampicillin,High,12,A2_3_b,True Sample,11.2,76950,13531
+G7_T24_A2_3_c,24,Ampicillin High,c,A2_3,Ampicillin,High,Ampicillin High,Ampicillin,High,12,A2_3_c,True Sample,4.2,59938,6261
+G7_T24_A2_3_d,24,Ampicillin High,d,A2_3,Ampicillin,High,Ampicillin High,Ampicillin,High,12,A2_3_d,True Sample,3.3,43087,7389
+G7_T24_B2_a,24,Blank,a,B2,Blank,Blank,Blank,Blank,Blank,2,B2_a,True Sample,9.8,73771,15156
+G7_T24_B2_b,24,Blank,b,B2,Blank,Blank,Blank,Blank,Blank,2,B2_b,True Sample,15.6,71498,14706
+G7_T24_B2_c,24,Blank,c,B2,Blank,Blank,Blank,Blank,Blank,2,B2_c,True Sample,2.4,47172,7282
+G7_T24_B2_d,24,Blank,d,B2,Blank,Blank,Blank,Blank,Blank,2,B2_d,True Sample,15,76827,9105
+G7_T24_B3_a,24,Blank,a,B3,Blank,Blank,Blank,Blank,Blank,3,B3_a,True Sample,7.3,74441,14219
+G7_T24_B3_b,24,Blank,b,B3,Blank,Blank,Blank,Blank,Blank,3,B3_b,True Sample,10.4,75105,15073
+G7_T24_B3_c,24,Blank,c,B3,Blank,Blank,Blank,Blank,Blank,3,B3_c,True Sample,3.5,63364,12381
+G7_T24_B3_d,24,Blank,d,B3,Blank,Blank,Blank,Blank,Blank,3,B3_d,True Sample,4.6,73862,14195
+G7_T24_B4_a,24,Blank,a,B4,Blank,Blank,Blank,Blank,Blank,4,B4_a,True Sample,9.5,85992,17123
+G7_T24_B4_b,24,Blank,b,B4,Blank,Blank,Blank,Blank,Blank,4,B4_b,True Sample,9.5,80541,8822
+G7_T24_B4_c,24,Blank,c,B4,Blank,Blank,Blank,Blank,Blank,4,B4_c,True Sample,2.4,75366,15480
+G7_T24_B4_d,24,Blank,d,B4,Blank,Blank,Blank,Blank,Blank,4,B4_d,True Sample,8.9,80874,17672
+G7_T24_B5_a,24,Blank,a,B5,Blank,Blank,Blank,Blank,Blank,5,B5_a,True Sample,11.5,76873,15191
+G7_T24_B5_b,24,Blank,b,B5,Blank,Blank,Blank,Blank,Blank,5,B5_b,True Sample,2.6,61844,13290
+G7_T24_B5_c,24,Blank,c,B5,Blank,Blank,Blank,Blank,Blank,5,B5_c,True Sample,7.6,53775,10529
+G7_T24_B5_d,24,Blank,d,B5,Blank,Blank,Blank,Blank,Blank,5,B5_d,True Sample,2.3,71189,13730
+G7_T24_B6_a,24,Blank,a,B6,Blank,Blank,Blank,Blank,Blank,6,B6_a,True Sample,9.1,69872,13920
+G7_T24_B6_b,24,Blank,b,B6,Blank,Blank,Blank,Blank,Blank,6,B6_b,True Sample,11.3,76053,16393
+G7_T24_B6_c,24,Blank,c,B6,Blank,Blank,Blank,Blank,Blank,6,B6_c,True Sample,1.9,59602,10160
+G7_T24_B6_d,24,Blank,d,B6,Blank,Blank,Blank,Blank,Blank,6,B6_d,True Sample,6.4,59358,11705
+G7_T24_C1_1_a,24,Ciprofloxacin Low,a,C1_1,Ciprofloxacin,Low,Ciprofloxacin Low,Ciprofloxacin,Low,19,C1_1_a,True Sample,4,63772,12802
+G7_T24_C1_1_b,24,Ciprofloxacin Low,b,C1_1,Ciprofloxacin,Low,Ciprofloxacin Low,Ciprofloxacin,Low,19,C1_1_b,True Sample,14.3,67601,10374
+G7_T24_C1_1_c,24,Ciprofloxacin Low,c,C1_1,Ciprofloxacin,Low,Ciprofloxacin Low,Ciprofloxacin,Low,19,C1_1_c,True Sample,12,67639,13575
+G7_T24_C1_1_d,24,Ciprofloxacin Low,d,C1_1,Ciprofloxacin,Low,Ciprofloxacin Low,Ciprofloxacin,Low,19,C1_1_d,True Sample,3.3,66801,11859
+G7_T24_C1_2_a,24,Ciprofloxacin Low,a,C1_2,Ciprofloxacin,Low,Ciprofloxacin Low,Ciprofloxacin,Low,20,C1_2_a,True Sample,4.6,53832,6403
+G7_T24_C1_2_b,24,Ciprofloxacin Low,b,C1_2,Ciprofloxacin,Low,Ciprofloxacin Low,Ciprofloxacin,Low,20,C1_2_b,True Sample,7.3,71513,8677
+G7_T24_C1_2_c,24,Ciprofloxacin Low,c,C1_2,Ciprofloxacin,Low,Ciprofloxacin Low,Ciprofloxacin,Low,20,C1_2_c,True Sample,2.4,60448,11463
+G7_T24_C1_2_d,24,Ciprofloxacin Low,d,C1_2,Ciprofloxacin,Low,Ciprofloxacin Low,Ciprofloxacin,Low,20,C1_2_d,True Sample,11.9,60554,7638
+G7_T24_C1_3_a,24,Ciprofloxacin Low,a,C1_3,Ciprofloxacin,Low,Ciprofloxacin Low,Ciprofloxacin,Low,21,C1_3_a,True Sample,4.6,62082,13914
+G7_T24_C1_3_b,24,Ciprofloxacin Low,b,C1_3,Ciprofloxacin,Low,Ciprofloxacin Low,Ciprofloxacin,Low,21,C1_3_b,True Sample,15.6,66319,11329
+G7_T24_C1_3_c,24,Ciprofloxacin Low,c,C1_3,Ciprofloxacin,Low,Ciprofloxacin Low,Ciprofloxacin,Low,21,C1_3_c,True Sample,2.3,34497,5827
+G7_T24_C1_3_d,24,Ciprofloxacin Low,d,C1_3,Ciprofloxacin,Low,Ciprofloxacin Low,Ciprofloxacin,Low,21,C1_3_d,True Sample,5,52505,11061
+G7_T24_C2_1_a,24,Ciprofloxacin High,a,C2_1,Ciprofloxacin,High,Ciprofloxacin High,Ciprofloxacin,High,22,C2_1_a,True Sample,5.5,54193,11847
+G7_T24_C2_1_b,24,Ciprofloxacin High,b,C2_1,Ciprofloxacin,High,Ciprofloxacin High,Ciprofloxacin,High,22,C2_1_b,True Sample,12.9,70329,4392
+G7_T24_C2_1_c,24,Ciprofloxacin High,c,C2_1,Ciprofloxacin,High,Ciprofloxacin High,Ciprofloxacin,High,22,C2_1_c,True Sample,6.6,62685,2917
+G7_T24_C2_1_d,24,Ciprofloxacin High,d,C2_1,Ciprofloxacin,High,Ciprofloxacin High,Ciprofloxacin,High,22,C2_1_d,True Sample,3.3,61967,7226
+G7_T24_C2_2_a,24,Ciprofloxacin High,a,C2_2,Ciprofloxacin,High,Ciprofloxacin High,Ciprofloxacin,High,23,C2_2_a,True Sample,8.7,58585,11605
+G7_T24_C2_2_b,24,Ciprofloxacin High,b,C2_2,Ciprofloxacin,High,Ciprofloxacin High,Ciprofloxacin,High,23,C2_2_b,True Sample,2.5,63971,12264
+G7_T24_C2_2_c,24,Ciprofloxacin High,c,C2_2,Ciprofloxacin,High,Ciprofloxacin High,Ciprofloxacin,High,23,C2_2_c,True Sample,4.7,70519,12714
+G7_T24_C2_2_d,24,Ciprofloxacin High,d,C2_2,Ciprofloxacin,High,Ciprofloxacin High,Ciprofloxacin,High,23,C2_2_d,True Sample,5.6,65017,11858
+G7_T24_C2_3_a,24,Ciprofloxacin High,a,C2_3,Ciprofloxacin,High,Ciprofloxacin High,Ciprofloxacin,High,24,C2_3_a,True Sample,13.6,67118,2837
+G7_T24_C2_3_b,24,Ciprofloxacin High,b,C2_3,Ciprofloxacin,High,Ciprofloxacin High,Ciprofloxacin,High,24,C2_3_b,True Sample,2.2,55095,10541
+G7_T24_C2_3_c,24,Ciprofloxacin High,c,C2_3,Ciprofloxacin,High,Ciprofloxacin High,Ciprofloxacin,High,24,C2_3_c,True Sample,10.3,69594,12746
+G7_T24_C2_3_d,24,Ciprofloxacin High,d,C2_3,Ciprofloxacin,High,Ciprofloxacin High,Ciprofloxacin,High,24,C2_3_d,True Sample,4.7,53236,6178
+G7_T24_M1_1_a,24,Mixture Low,a,M1_1,Mixture,Low,Mixture Low,Mixture,Low,25,M1_1_a,True Sample,21.7,66970,6584
+G7_T24_M1_1_b,24,Mixture Low,b,M1_1,Mixture,Low,Mixture Low,Mixture,Low,25,M1_1_b,True Sample,6.6,70358,10209
+G7_T24_M1_1_c,24,Mixture Low,c,M1_1,Mixture,Low,Mixture Low,Mixture,Low,25,M1_1_c,True Sample,6.3,62787,5789
+G7_T24_M1_1_d,24,Mixture Low,d,M1_1,Mixture,Low,Mixture Low,Mixture,Low,25,M1_1_d,True Sample,6,63218,9613
+G7_T24_M1_2_a,24,Mixture Low,a,M1_2,Mixture,Low,Mixture Low,Mixture,Low,26,M1_2_a,True Sample,5.1,52968,5608
+G7_T24_M1_2_b,24,Mixture Low,b,M1_2,Mixture,Low,Mixture Low,Mixture,Low,26,M1_2_b,True Sample,3.5,62750,9050
+G7_T24_M1_2_c,24,Mixture Low,c,M1_2,Mixture,Low,Mixture Low,Mixture,Low,26,M1_2_c,True Sample,11.9,56549,10499
+G7_T24_M1_2_d,24,Mixture Low,d,M1_2,Mixture,Low,Mixture Low,Mixture,Low,26,M1_2_d,True Sample,14.7,65220,4591
+G7_T24_M1_3_a,24,Mixture Low,a,M1_3,Mixture,Low,Mixture Low,Mixture,Low,27,M1_3_a,True Sample,5.3,51262,6046
+G7_T24_M1_3_b,24,Mixture Low,b,M1_3,Mixture,Low,Mixture Low,Mixture,Low,27,M1_3_b,True Sample,3.5,75247,5904
+G7_T24_M1_3_c,24,Mixture Low,c,M1_3,Mixture,Low,Mixture Low,Mixture,Low,27,M1_3_c,True Sample,6.4,63882,5808
+G7_T24_M1_3_d,24,Mixture Low,d,M1_3,Mixture,Low,Mixture Low,Mixture,Low,27,M1_3_d,True Sample,2,43193,6094
+G7_T24_M2_1_a,24,Mixture High,a,M2_1,Mixture,High,Mixture High,Mixture,High,28,M2_1_a,True Sample,7.3,64380,8222
+G7_T24_M2_1_b,24,Mixture High,b,M2_1,Mixture,High,Mixture High,Mixture,High,28,M2_1_b,True Sample,3.5,59420,11174
+G7_T24_M2_1_c,24,Mixture High,c,M2_1,Mixture,High,Mixture High,Mixture,High,28,M2_1_c,True Sample,3.5,55635,7346
+G7_T24_M2_1_d,24,Mixture High,d,M2_1,Mixture,High,Mixture High,Mixture,High,28,M2_1_d,True Sample,2.7,56954,8386
+G7_T24_M2_2_a,24,Mixture High,a,M2_2,Mixture,High,Mixture High,Mixture,High,29,M2_2_a,True Sample,3,63804,9456
+G7_T24_M2_2_b,24,Mixture High,b,M2_2,Mixture,High,Mixture High,Mixture,High,29,M2_2_b,True Sample,2.4,57163,8520
+G7_T24_M2_2_c,24,Mixture High,c,M2_2,Mixture,High,Mixture High,Mixture,High,29,M2_2_c,True Sample,2.5,54563,7296
+G7_T24_M2_2_d,24,Mixture High,d,M2_2,Mixture,High,Mixture High,Mixture,High,29,M2_2_d,True Sample,5.8,63276,4480
+G7_T24_M2_3_a,24,Mixture High,a,M2_3,Mixture,High,Mixture High,Mixture,High,30,M2_3_a,True Sample,2.4,45210,4185
+G7_T24_M2_3_b,24,Mixture High,b,M2_3,Mixture,High,Mixture High,Mixture,High,30,M2_3_b,True Sample,4.5,66368,3695
+G7_T24_M2_3_c,24,Mixture High,c,M2_3,Mixture,High,Mixture High,Mixture,High,30,M2_3_c,True Sample,2.4,64063,7180
+G7_T24_M2_3_d,24,Mixture High,d,M2_3,Mixture,High,Mixture High,Mixture,High,30,M2_3_d,True Sample,2.2,77381,7421
+G7_T24_S1_1_a,24,Streptomycin Low,a,S1_1,Streptomycin,Low,Streptomycin Low,Streptomycin,Low,13,S1_1_a,True Sample,4.8,65785,14065
+G7_T24_S1_1_b,24,Streptomycin Low,b,S1_1,Streptomycin,Low,Streptomycin Low,Streptomycin,Low,13,S1_1_b,True Sample,5.2,61284,7851
+G7_T24_S1_1_c,24,Streptomycin Low,c,S1_1,Streptomycin,Low,Streptomycin Low,Streptomycin,Low,13,S1_1_c,True Sample,5.7,73992,15121
+G7_T24_S1_1_d,24,Streptomycin Low,d,S1_1,Streptomycin,Low,Streptomycin Low,Streptomycin,Low,13,S1_1_d,True Sample,9.7,67112,9749
+G7_T24_S1_2_a,24,Streptomycin Low,a,S1_2,Streptomycin,Low,Streptomycin Low,Streptomycin,Low,14,S1_2_a,True Sample,4,41240,5797
+G7_T24_S1_2_b,24,Streptomycin Low,b,S1_2,Streptomycin,Low,Streptomycin Low,Streptomycin,Low,14,S1_2_b,True Sample,4.8,70985,10596
+G7_T24_S1_2_c,24,Streptomycin Low,c,S1_2,Streptomycin,Low,Streptomycin Low,Streptomycin,Low,14,S1_2_c,True Sample,20.6,70906,14673
+G7_T24_S1_2_d,24,Streptomycin Low,d,S1_2,Streptomycin,Low,Streptomycin Low,Streptomycin,Low,14,S1_2_d,True Sample,4.4,57624,8401
+G7_T24_S1_3_a,24,Streptomycin Low,a,S1_3,Streptomycin,Low,Streptomycin Low,Streptomycin,Low,15,S1_3_a,True Sample,2.7,51335,8554
+G7_T24_S1_3_b,24,Streptomycin Low,b,S1_3,Streptomycin,Low,Streptomycin Low,Streptomycin,Low,15,S1_3_b,True Sample,3.3,65704,12373
+G7_T24_S1_3_c,24,Streptomycin Low,c,S1_3,Streptomycin,Low,Streptomycin Low,Streptomycin,Low,15,S1_3_c,True Sample,4.1,70045,10723
+G7_T24_S1_3_d,24,Streptomycin Low,d,S1_3,Streptomycin,Low,Streptomycin Low,Streptomycin,Low,15,S1_3_d,True Sample,2.6,60240,12467
+G7_T24_S2_1_a,24,Streptomycin High,a,S2_1,Streptomycin,High,Streptomycin High,Streptomycin,High,16,S2_1_a,True Sample,7.3,60901,11825
+G7_T24_S2_1_b,24,Streptomycin High,b,S2_1,Streptomycin,High,Streptomycin High,Streptomycin,High,16,S2_1_b,True Sample,7,66143,13878
+G7_T24_S2_1_c,24,Streptomycin High,c,S2_1,Streptomycin,High,Streptomycin High,Streptomycin,High,16,S2_1_c,True Sample,6.9,68921,11195
+G7_T24_S2_1_d,24,Streptomycin High,d,S2_1,Streptomycin,High,Streptomycin High,Streptomycin,High,16,S2_1_d,True Sample,1.7,60152,11408
+G7_T24_S2_2_a,24,Streptomycin High,a,S2_2,Streptomycin,High,Streptomycin High,Streptomycin,High,17,S2_2_a,True Sample,6.4,66241,3898
+G7_T24_S2_2_b,24,Streptomycin High,b,S2_2,Streptomycin,High,Streptomycin High,Streptomycin,High,17,S2_2_b,True Sample,7.6,75114,13583
+G7_T24_S2_2_c,24,Streptomycin High,c,S2_2,Streptomycin,High,Streptomycin High,Streptomycin,High,17,S2_2_c,True Sample,2.9,74609,16105
+G7_T24_S2_2_d,24,Streptomycin High,d,S2_2,Streptomycin,High,Streptomycin High,Streptomycin,High,17,S2_2_d,True Sample,15.8,77205,13457
+G7_T24_S2_3_a,24,Streptomycin High,a,S2_3,Streptomycin,High,Streptomycin High,Streptomycin,High,18,S2_3_a,True Sample,9.8,80607,15859
+G7_T24_S2_3_b,24,Streptomycin High,b,S2_3,Streptomycin,High,Streptomycin High,Streptomycin,High,18,S2_3_b,True Sample,5.4,75790,14216
+G7_T24_S2_3_c,24,Streptomycin High,c,S2_3,Streptomycin,High,Streptomycin High,Streptomycin,High,18,S2_3_c,True Sample,2.1,41160,9094
+G7_T24_S2_3_d,24,Streptomycin High,d,S2_3,Streptomycin,High,Streptomycin High,Streptomycin,High,18,S2_3_d,True Sample,3.4,43874,8540
+G7_T48_A1_1_a,48,Ampicillin Low,a,A1_1,Ampicillin,Low,Ampicillin Low,Ampicillin,Low,7,A1_1_a,True Sample,10.1,84269,12061
+G7_T48_A1_1_b,48,Ampicillin Low,b,A1_1,Ampicillin,Low,Ampicillin Low,Ampicillin,Low,7,A1_1_b,True Sample,1.9,55476,9580
+G7_T48_A1_1_c,48,Ampicillin Low,c,A1_1,Ampicillin,Low,Ampicillin Low,Ampicillin,Low,7,A1_1_c,True Sample,9.4,80639,12418
+G7_T48_A1_1_d,48,Ampicillin Low,d,A1_1,Ampicillin,Low,Ampicillin Low,Ampicillin,Low,7,A1_1_d,True Sample,2.9,70901,14470
+G7_T48_A1_2_a,48,Ampicillin Low,a,A1_2,Ampicillin,Low,Ampicillin Low,Ampicillin,Low,8,A1_2_a,True Sample,2.2,58544,6466
+G7_T48_A1_2_b,48,Ampicillin Low,b,A1_2,Ampicillin,Low,Ampicillin Low,Ampicillin,Low,8,A1_2_b,True Sample,8.8,80079,13664
+G7_T48_A1_2_c,48,Ampicillin Low,c,A1_2,Ampicillin,Low,Ampicillin Low,Ampicillin,Low,8,A1_2_c,True Sample,10.2,78027,11063
+G7_T48_A1_2_d,48,Ampicillin Low,d,A1_2,Ampicillin,Low,Ampicillin Low,Ampicillin,Low,8,A1_2_d,True Sample,11.3,72868,11984
+G7_T48_A1_3_a,48,Ampicillin Low,a,A1_3,Ampicillin,Low,Ampicillin Low,Ampicillin,Low,9,A1_3_a,True Sample,7.9,92181,18009
+G7_T48_A1_3_b,48,Ampicillin Low,b,A1_3,Ampicillin,Low,Ampicillin Low,Ampicillin,Low,9,A1_3_b,True Sample,19.8,66822,12153
+G7_T48_A1_3_c,48,Ampicillin Low,c,A1_3,Ampicillin,Low,Ampicillin Low,Ampicillin,Low,9,A1_3_c,True Sample,3,84733,16124
+G7_T48_A1_3_d,48,Ampicillin Low,d,A1_3,Ampicillin,Low,Ampicillin Low,Ampicillin,Low,9,A1_3_d,True Sample,5.8,95213,19532
+G7_T48_A2_1_a,48,Ampicillin High,a,A2_1,Ampicillin,High,Ampicillin High,Ampicillin,High,10,A2_1_a,True Sample,2.3,55985,7324
+G7_T48_A2_1_b,48,Ampicillin High,b,A2_1,Ampicillin,High,Ampicillin High,Ampicillin,High,10,A2_1_b,True Sample,5.7,68717,8010
+G7_T48_A2_1_c,48,Ampicillin High,c,A2_1,Ampicillin,High,Ampicillin High,Ampicillin,High,10,A2_1_c,True Sample,1.8,61492,6095
+G7_T48_A2_1_d,48,Ampicillin High,d,A2_1,Ampicillin,High,Ampicillin High,Ampicillin,High,10,A2_1_d,True Sample,2.7,84454,14964
+G7_T48_A2_2_a,48,Ampicillin High,a,A2_2,Ampicillin,High,Ampicillin High,Ampicillin,High,11,A2_2_a,True Sample,4.1,67916,8297
+G7_T48_A2_2_b,48,Ampicillin High,b,A2_2,Ampicillin,High,Ampicillin High,Ampicillin,High,11,A2_2_b,True Sample,6,49771,9369
+G7_T48_A2_2_c,48,Ampicillin High,c,A2_2,Ampicillin,High,Ampicillin High,Ampicillin,High,11,A2_2_c,True Sample,7.5,45934,10400
+G7_T48_A2_2_d,48,Ampicillin High,d,A2_2,Ampicillin,High,Ampicillin High,Ampicillin,High,11,A2_2_d,True Sample,4.5,73543,18100
+G7_T48_A2_3_a,48,Ampicillin High,a,A2_3,Ampicillin,High,Ampicillin High,Ampicillin,High,12,A2_3_a,True Sample,5.7,64703,9848
+G7_T48_A2_3_b,48,Ampicillin High,b,A2_3,Ampicillin,High,Ampicillin High,Ampicillin,High,12,A2_3_b,True Sample,2.9,57619,4961
+G7_T48_A2_3_c,48,Ampicillin High,c,A2_3,Ampicillin,High,Ampicillin High,Ampicillin,High,12,A2_3_c,True Sample,3.2,49530,7552
+G7_T48_A2_3_d,48,Ampicillin High,d,A2_3,Ampicillin,High,Ampicillin High,Ampicillin,High,12,A2_3_d,True Sample,2.2,63733,7076
+G7_T48_B2_a,48,Blank,a,B2,Blank,Blank,Blank,Blank,Blank,2,B2_a,True Sample,11,81138,15964
+G7_T48_B2_b,48,Blank,b,B2,Blank,Blank,Blank,Blank,Blank,2,B2_b,True Sample,12.9,67011,13632
+G7_T48_B2_c,48,Blank,c,B2,Blank,Blank,Blank,Blank,Blank,2,B2_c,True Sample,5,38694,8793
+G7_T48_B2_d,48,Blank,d,B2,Blank,Blank,Blank,Blank,Blank,2,B2_d,True Sample,8.6,74111,8136
+G7_T48_B3_a,48,Blank,a,B3,Blank,Blank,Blank,Blank,Blank,3,B3_a,True Sample,4.3,76833,12948
+G7_T48_B3_b,48,Blank,b,B3,Blank,Blank,Blank,Blank,Blank,3,B3_b,True Sample,14.1,78476,15717
+G7_T48_B3_c,48,Blank,c,B3,Blank,Blank,Blank,Blank,Blank,3,B3_c,True Sample,8.1,69300,14057
+G7_T48_B3_d,48,Blank,d,B3,Blank,Blank,Blank,Blank,Blank,3,B3_d,True Sample,13.3,72922,14783
+G7_T48_B4_a,48,Blank,a,B4,Blank,Blank,Blank,Blank,Blank,4,B4_a,True Sample,12.3,76089,14190
+G7_T48_B4_b,48,Blank,b,B4,Blank,Blank,Blank,Blank,Blank,4,B4_b,True Sample,3,62576,9375
+G7_T48_B4_c,48,Blank,c,B4,Blank,Blank,Blank,Blank,Blank,4,B4_c,True Sample,10.6,82226,16006
+G7_T48_B4_d,48,Blank,d,B4,Blank,Blank,Blank,Blank,Blank,4,B4_d,True Sample,15.9,86732,16985
+G7_T48_B5_a,48,Blank,a,B5,Blank,Blank,Blank,Blank,Blank,5,B5_a,True Sample,11.2,70982,14913
+G7_T48_B5_b,48,Blank,b,B5,Blank,Blank,Blank,Blank,Blank,5,B5_b,True Sample,8,77741,15757
+G7_T48_B5_c,48,Blank,c,B5,Blank,Blank,Blank,Blank,Blank,5,B5_c,True Sample,4.1,48605,9484
+G7_T48_B5_d,48,Blank,d,B5,Blank,Blank,Blank,Blank,Blank,5,B5_d,True Sample,19.5,61052,13376
+G7_T48_B6_a,48,Blank,a,B6,Blank,Blank,Blank,Blank,Blank,6,B6_a,True Sample,2.4,68857,12149
+G7_T48_B6_b,48,Blank,b,B6,Blank,Blank,Blank,Blank,Blank,6,B6_b,True Sample,6.2,58315,10537
+G7_T48_B6_c,48,Blank,c,B6,Blank,Blank,Blank,Blank,Blank,6,B6_c,True Sample,5.8,81601,14749
+G7_T48_B6_d,48,Blank,d,B6,Blank,Blank,Blank,Blank,Blank,6,B6_d,True Sample,9.7,76433,15655
+G7_T48_C1_1_a,48,Ciprofloxacin Low,a,C1_1,Ciprofloxacin,Low,Ciprofloxacin Low,Ciprofloxacin,Low,19,C1_1_a,True Sample,2,55496,7242
+G7_T48_C1_1_b,48,Ciprofloxacin Low,b,C1_1,Ciprofloxacin,Low,Ciprofloxacin Low,Ciprofloxacin,Low,19,C1_1_b,True Sample,2.3,63067,4969
+G7_T48_C1_1_c,48,Ciprofloxacin Low,c,C1_1,Ciprofloxacin,Low,Ciprofloxacin Low,Ciprofloxacin,Low,19,C1_1_c,True Sample,8.2,92852,16931
+G7_T48_C1_1_d,48,Ciprofloxacin Low,d,C1_1,Ciprofloxacin,Low,Ciprofloxacin Low,Ciprofloxacin,Low,19,C1_1_d,True Sample,5,75703,13494
+G7_T48_C1_2_a,48,Ciprofloxacin Low,a,C1_2,Ciprofloxacin,Low,Ciprofloxacin Low,Ciprofloxacin,Low,20,C1_2_a,True Sample,3.7,57468,9621
+G7_T48_C1_2_b,48,Ciprofloxacin Low,b,C1_2,Ciprofloxacin,Low,Ciprofloxacin Low,Ciprofloxacin,Low,20,C1_2_b,True Sample,2.9,53865,1680
+G7_T48_C1_2_c,48,Ciprofloxacin Low,c,C1_2,Ciprofloxacin,Low,Ciprofloxacin Low,Ciprofloxacin,Low,20,C1_2_c,True Sample,3.2,54201,9438
+G7_T48_C1_2_d,48,Ciprofloxacin Low,d,C1_2,Ciprofloxacin,Low,Ciprofloxacin Low,Ciprofloxacin,Low,20,C1_2_d,True Sample,6,68356,11416
+G7_T48_C1_3_a,48,Ciprofloxacin Low,a,C1_3,Ciprofloxacin,Low,Ciprofloxacin Low,Ciprofloxacin,Low,21,C1_3_a,True Sample,2.8,61721,11584
+G7_T48_C1_3_b,48,Ciprofloxacin Low,b,C1_3,Ciprofloxacin,Low,Ciprofloxacin Low,Ciprofloxacin,Low,21,C1_3_b,True Sample,2.1,62667,13443
+G7_T48_C1_3_c,48,Ciprofloxacin Low,c,C1_3,Ciprofloxacin,Low,Ciprofloxacin Low,Ciprofloxacin,Low,21,C1_3_c,True Sample,2.2,62905,9905
+G7_T48_C1_3_d,48,Ciprofloxacin Low,d,C1_3,Ciprofloxacin,Low,Ciprofloxacin Low,Ciprofloxacin,Low,21,C1_3_d,True Sample,5,78041,7624
+G7_T48_C2_1_a,48,Ciprofloxacin High,a,C2_1,Ciprofloxacin,High,Ciprofloxacin High,Ciprofloxacin,High,22,C2_1_a,True Sample,1.8,48377,7842
+G7_T48_C2_1_b,48,Ciprofloxacin High,b,C2_1,Ciprofloxacin,High,Ciprofloxacin High,Ciprofloxacin,High,22,C2_1_b,True Sample,3.3,67413,7584
+G7_T48_C2_1_c,48,Ciprofloxacin High,c,C2_1,Ciprofloxacin,High,Ciprofloxacin High,Ciprofloxacin,High,22,C2_1_c,True Sample,4.9,55516,5632
+G7_T48_C2_1_d,48,Ciprofloxacin High,d,C2_1,Ciprofloxacin,High,Ciprofloxacin High,Ciprofloxacin,High,22,C2_1_d,True Sample,3.6,65187,8056
+G7_T48_C2_2_b,48,Ciprofloxacin High,b,C2_2,Ciprofloxacin,High,Ciprofloxacin High,Ciprofloxacin,High,23,C2_2_b,True Sample,3.5,58806,5759
+G7_T48_C2_2_c,48,Ciprofloxacin High,c,C2_2,Ciprofloxacin,High,Ciprofloxacin High,Ciprofloxacin,High,23,C2_2_c,True Sample,21.7,81603,12837
+G7_T48_C2_2_d,48,Ciprofloxacin High,d,C2_2,Ciprofloxacin,High,Ciprofloxacin High,Ciprofloxacin,High,23,C2_2_d,True Sample,6.1,52864,10099
+G7_T48_C2_3_a,48,Ciprofloxacin High,a,C2_3,Ciprofloxacin,High,Ciprofloxacin High,Ciprofloxacin,High,24,C2_3_a,True Sample,3.1,54470,3674
+G7_T48_C2_3_b,48,Ciprofloxacin High,b,C2_3,Ciprofloxacin,High,Ciprofloxacin High,Ciprofloxacin,High,24,C2_3_b,True Sample,8.6,63895,4740
+G7_T48_C2_3_c,48,Ciprofloxacin High,c,C2_3,Ciprofloxacin,High,Ciprofloxacin High,Ciprofloxacin,High,24,C2_3_c,True Sample,2.5,46831,5206
+G7_T48_C2_3_d,48,Ciprofloxacin High,d,C2_3,Ciprofloxacin,High,Ciprofloxacin High,Ciprofloxacin,High,24,C2_3_d,True Sample,17.5,29285,2491
+G7_T48_M1_1_a,48,Mixture Low,a,M1_1,Mixture,Low,Mixture Low,Mixture,Low,25,M1_1_a,True Sample,7.3,44659,1020
+G7_T48_M1_1_b,48,Mixture Low,b,M1_1,Mixture,Low,Mixture Low,Mixture,Low,25,M1_1_b,True Sample,7.7,59053,5317
+G7_T48_M1_1_c,48,Mixture Low,c,M1_1,Mixture,Low,Mixture Low,Mixture,Low,25,M1_1_c,True Sample,8.5,54994,11084
+G7_T48_M1_1_d,48,Mixture Low,d,M1_1,Mixture,Low,Mixture Low,Mixture,Low,25,M1_1_d,True Sample,10.8,50199,5353
+G7_T48_M1_2_a,48,Mixture Low,a,M1_2,Mixture,Low,Mixture Low,Mixture,Low,26,M1_2_a,True Sample,11.8,80112,14057
+G7_T48_M1_2_b,48,Mixture Low,b,M1_2,Mixture,Low,Mixture Low,Mixture,Low,26,M1_2_b,True Sample,8.9,63694,3397
+G7_T48_M1_2_c,48,Mixture Low,c,M1_2,Mixture,Low,Mixture Low,Mixture,Low,26,M1_2_c,True Sample,21.3,59007,2103
+G7_T48_M1_2_d,48,Mixture Low,d,M1_2,Mixture,Low,Mixture Low,Mixture,Low,26,M1_2_d,True Sample,9.9,62287,6371
+G7_T48_M1_3_a,48,Mixture Low,a,M1_3,Mixture,Low,Mixture Low,Mixture,Low,27,M1_3_a,True Sample,5.2,56250,8648
+G7_T48_M1_3_b,48,Mixture Low,b,M1_3,Mixture,Low,Mixture Low,Mixture,Low,27,M1_3_b,True Sample,7.9,67502,8415
+G7_T48_M1_3_c,48,Mixture Low,c,M1_3,Mixture,Low,Mixture Low,Mixture,Low,27,M1_3_c,True Sample,8.3,54685,8095
+G7_T48_M1_3_d,48,Mixture Low,d,M1_3,Mixture,Low,Mixture Low,Mixture,Low,27,M1_3_d,True Sample,22.7,53310,5152
+G7_T48_M2_1_a,48,Mixture High,a,M2_1,Mixture,High,Mixture High,Mixture,High,28,M2_1_a,True Sample,7.1,73911,7762
+G7_T48_M2_1_b,48,Mixture High,b,M2_1,Mixture,High,Mixture High,Mixture,High,28,M2_1_b,True Sample,18.9,68962,7821
+G7_T48_M2_1_c,48,Mixture High,c,M2_1,Mixture,High,Mixture High,Mixture,High,28,M2_1_c,True Sample,21.2,55500,7332
+G7_T48_M2_1_d,48,Mixture High,d,M2_1,Mixture,High,Mixture High,Mixture,High,28,M2_1_d,True Sample,22.3,49855,3720
+G7_T48_M2_2_a,48,Mixture High,a,M2_2,Mixture,High,Mixture High,Mixture,High,29,M2_2_a,True Sample,14.6,60569,6614
+G7_T48_M2_2_b,48,Mixture High,b,M2_2,Mixture,High,Mixture High,Mixture,High,29,M2_2_b,True Sample,8.2,67638,2463
+G7_T48_M2_2_c,48,Mixture High,c,M2_2,Mixture,High,Mixture High,Mixture,High,29,M2_2_c,True Sample,20.4,64613,3943
+G7_T48_M2_2_d,48,Mixture High,d,M2_2,Mixture,High,Mixture High,Mixture,High,29,M2_2_d,True Sample,9.8,67204,4607
+G7_T48_M2_3_a,48,Mixture High,a,M2_3,Mixture,High,Mixture High,Mixture,High,30,M2_3_a,True Sample,2.2,39739,3840
+G7_T48_M2_3_b,48,Mixture High,b,M2_3,Mixture,High,Mixture High,Mixture,High,30,M2_3_b,True Sample,13.2,61691,4925
+G7_T48_M2_3_c,48,Mixture High,c,M2_3,Mixture,High,Mixture High,Mixture,High,30,M2_3_c,True Sample,13.4,66667,6152
+G7_T48_M2_3_d,48,Mixture High,d,M2_3,Mixture,High,Mixture High,Mixture,High,30,M2_3_d,True Sample,11.5,62666,8234
+G7_T48_S1_1_a,48,Streptomycin Low,a,S1_1,Streptomycin,Low,Streptomycin Low,Streptomycin,Low,13,S1_1_a,True Sample,2.2,51707,10088
+G7_T48_S1_1_b,48,Streptomycin Low,b,S1_1,Streptomycin,Low,Streptomycin Low,Streptomycin,Low,13,S1_1_b,True Sample,4.8,60279,9486
+G7_T48_S1_1_c,48,Streptomycin Low,c,S1_1,Streptomycin,Low,Streptomycin Low,Streptomycin,Low,13,S1_1_c,True Sample,2,62836,8867
+G7_T48_S1_1_d,48,Streptomycin Low,d,S1_1,Streptomycin,Low,Streptomycin Low,Streptomycin,Low,13,S1_1_d,True Sample,3.5,66922,12425
+G7_T48_S1_2_a,48,Streptomycin Low,a,S1_2,Streptomycin,Low,Streptomycin Low,Streptomycin,Low,14,S1_2_a,True Sample,5.4,61954,10495
+G7_T48_S1_2_b,48,Streptomycin Low,b,S1_2,Streptomycin,Low,Streptomycin Low,Streptomycin,Low,14,S1_2_b,True Sample,3.8,67972,10682
+G7_T48_S1_2_c,48,Streptomycin Low,c,S1_2,Streptomycin,Low,Streptomycin Low,Streptomycin,Low,14,S1_2_c,True Sample,5,59447,13581
+G7_T48_S1_2_d,48,Streptomycin Low,d,S1_2,Streptomycin,Low,Streptomycin Low,Streptomycin,Low,14,S1_2_d,True Sample,2,50893,9836
+G7_T48_S1_3_a,48,Streptomycin Low,a,S1_3,Streptomycin,Low,Streptomycin Low,Streptomycin,Low,15,S1_3_a,True Sample,7.7,81315,9860
+G7_T48_S1_3_b,48,Streptomycin Low,b,S1_3,Streptomycin,Low,Streptomycin Low,Streptomycin,Low,15,S1_3_b,True Sample,2.2,47495,7081
+G7_T48_S1_3_c,48,Streptomycin Low,c,S1_3,Streptomycin,Low,Streptomycin Low,Streptomycin,Low,15,S1_3_c,True Sample,9.9,67226,14256
+G7_T48_S1_3_d,48,Streptomycin Low,d,S1_3,Streptomycin,Low,Streptomycin Low,Streptomycin,Low,15,S1_3_d,True Sample,2.9,63438,5541
+G7_T48_S2_1_a,48,Streptomycin High,a,S2_1,Streptomycin,High,Streptomycin High,Streptomycin,High,16,S2_1_a,True Sample,15.4,85628,20332
+G7_T48_S2_1_b,48,Streptomycin High,b,S2_1,Streptomycin,High,Streptomycin High,Streptomycin,High,16,S2_1_b,True Sample,3.3,67986,11783
+G7_T48_S2_1_c,48,Streptomycin High,c,S2_1,Streptomycin,High,Streptomycin High,Streptomycin,High,16,S2_1_c,True Sample,3.1,73627,11992
+G7_T48_S2_1_d,48,Streptomycin High,d,S2_1,Streptomycin,High,Streptomycin High,Streptomycin,High,16,S2_1_d,True Sample,3.8,82196,16265
+G7_T48_S2_2_a,48,Streptomycin High,a,S2_2,Streptomycin,High,Streptomycin High,Streptomycin,High,17,S2_2_a,True Sample,4.6,52369,9102
+G7_T48_S2_2_b,48,Streptomycin High,b,S2_2,Streptomycin,High,Streptomycin High,Streptomycin,High,17,S2_2_b,True Sample,2.1,47597,8032
+G7_T48_S2_2_c,48,Streptomycin High,c,S2_2,Streptomycin,High,Streptomycin High,Streptomycin,High,17,S2_2_c,True Sample,10.3,71485,9225
+G7_T48_S2_2_d,48,Streptomycin High,d,S2_2,Streptomycin,High,Streptomycin High,Streptomycin,High,17,S2_2_d,True Sample,3.2,61344,9985
+G7_T48_S2_3_a,48,Streptomycin High,a,S2_3,Streptomycin,High,Streptomycin High,Streptomycin,High,18,S2_3_a,True Sample,3.9,74183,12149
+G7_T48_S2_3_b,48,Streptomycin High,b,S2_3,Streptomycin,High,Streptomycin High,Streptomycin,High,18,S2_3_b,True Sample,13,89036,17506
+G7_T48_S2_3_c,48,Streptomycin High,c,S2_3,Streptomycin,High,Streptomycin High,Streptomycin,High,18,S2_3_c,True Sample,3.7,84342,17990
+G7_T48_S2_3_d,48,Streptomycin High,d,S2_3,Streptomycin,High,Streptomycin High,Streptomycin,High,18,S2_3_d,True Sample,12.9,84318,16430
+G7_T96_A1_1_a,96,Ampicillin Low,a,A1_1,Ampicillin,Low,Ampicillin Low,Ampicillin,Low,7,A1_1_a,True Sample,7.2,68744,11349
+G7_T96_A1_1_b,96,Ampicillin Low,b,A1_1,Ampicillin,Low,Ampicillin Low,Ampicillin,Low,7,A1_1_b,True Sample,22.4,68340,10338
+G7_T96_A1_1_c,96,Ampicillin Low,c,A1_1,Ampicillin,Low,Ampicillin Low,Ampicillin,Low,7,A1_1_c,True Sample,9.2,69017,9165
+G7_T96_A1_1_d,96,Ampicillin Low,d,A1_1,Ampicillin,Low,Ampicillin Low,Ampicillin,Low,7,A1_1_d,True Sample,19.2,75101,7935
+G7_T96_A1_2_a,96,Ampicillin Low,a,A1_2,Ampicillin,Low,Ampicillin Low,Ampicillin,Low,8,A1_2_a,True Sample,2,51893,9121
+G7_T96_A1_2_b,96,Ampicillin Low,b,A1_2,Ampicillin,Low,Ampicillin Low,Ampicillin,Low,8,A1_2_b,True Sample,4.2,70165,6901
+G7_T96_A1_2_c,96,Ampicillin Low,c,A1_2,Ampicillin,Low,Ampicillin Low,Ampicillin,Low,8,A1_2_c,True Sample,26.6,64973,8928
+G7_T96_A1_2_d,96,Ampicillin Low,d,A1_2,Ampicillin,Low,Ampicillin Low,Ampicillin,Low,8,A1_2_d,True Sample,13,67572,7280
+G7_T96_A1_3_a,96,Ampicillin Low,a,A1_3,Ampicillin,Low,Ampicillin Low,Ampicillin,Low,9,A1_3_a,True Sample,9.1,81561,17964
+G7_T96_A1_3_b,96,Ampicillin Low,b,A1_3,Ampicillin,Low,Ampicillin Low,Ampicillin,Low,9,A1_3_b,True Sample,16,53962,8233
+G7_T96_A1_3_c,96,Ampicillin Low,c,A1_3,Ampicillin,Low,Ampicillin Low,Ampicillin,Low,9,A1_3_c,True Sample,7.1,77394,18030
+G7_T96_A1_3_d,96,Ampicillin Low,d,A1_3,Ampicillin,Low,Ampicillin Low,Ampicillin,Low,9,A1_3_d,True Sample,9.9,57603,10639
+G7_T96_A2_1_a,96,Ampicillin High,a,A2_1,Ampicillin,High,Ampicillin High,Ampicillin,High,10,A2_1_a,True Sample,24,98558,18433
+G7_T96_A2_1_b,96,Ampicillin High,b,A2_1,Ampicillin,High,Ampicillin High,Ampicillin,High,10,A2_1_b,True Sample,1.9,54071,6921
+G7_T96_A2_1_c,96,Ampicillin High,c,A2_1,Ampicillin,High,Ampicillin High,Ampicillin,High,10,A2_1_c,True Sample,14.9,63922,11599
+G7_T96_A2_1_d,96,Ampicillin High,d,A2_1,Ampicillin,High,Ampicillin High,Ampicillin,High,10,A2_1_d,True Sample,4.2,61721,12845
+G7_T96_A2_2_a,96,Ampicillin High,a,A2_2,Ampicillin,High,Ampicillin High,Ampicillin,High,11,A2_2_a,True Sample,8,61321,9869
+G7_T96_A2_2_b,96,Ampicillin High,b,A2_2,Ampicillin,High,Ampicillin High,Ampicillin,High,11,A2_2_b,True Sample,5.2,59021,10978
+G7_T96_A2_2_c,96,Ampicillin High,c,A2_2,Ampicillin,High,Ampicillin High,Ampicillin,High,11,A2_2_c,True Sample,4.2,47742,9869
+G7_T96_A2_2_d,96,Ampicillin High,d,A2_2,Ampicillin,High,Ampicillin High,Ampicillin,High,11,A2_2_d,True Sample,24.7,45303,7005
+G7_T96_A2_3_a,96,Ampicillin High,a,A2_3,Ampicillin,High,Ampicillin High,Ampicillin,High,12,A2_3_a,True Sample,6.3,72924,11110
+G7_T96_A2_3_b,96,Ampicillin High,b,A2_3,Ampicillin,High,Ampicillin High,Ampicillin,High,12,A2_3_b,True Sample,20.7,72905,16152
+G7_T96_A2_3_c,96,Ampicillin High,c,A2_3,Ampicillin,High,Ampicillin High,Ampicillin,High,12,A2_3_c,True Sample,9.1,63889,10412
+G7_T96_A2_3_d,96,Ampicillin High,d,A2_3,Ampicillin,High,Ampicillin High,Ampicillin,High,12,A2_3_d,True Sample,5.8,59096,9774
+G7_T96_B2_a,96,Blank,a,B2,Blank,Blank,Blank,Blank,Blank,2,B2_a,True Sample,11.506,91200,17835
+G7_T96_B2_b,96,Blank,b,B2,Blank,Blank,Blank,Blank,Blank,2,B2_b,True Sample,8.622,55960,10874
+G7_T96_B2_c,96,Blank,c,B2,Blank,Blank,Blank,Blank,Blank,2,B2_c,True Sample,5.915,62803,12772
+G7_T96_B2_d,96,Blank,d,B2,Blank,Blank,Blank,Blank,Blank,2,B2_d,True Sample,2.661,66589,8142
+G7_T96_B3_a,96,Blank,a,B3,Blank,Blank,Blank,Blank,Blank,3,B3_a,True Sample,13,61154,12273
+G7_T96_B3_b,96,Blank,b,B3,Blank,Blank,Blank,Blank,Blank,3,B3_b,True Sample,15.8,45514,9183
+G7_T96_B3_c,96,Blank,c,B3,Blank,Blank,Blank,Blank,Blank,3,B3_c,True Sample,2.7,512,162
+G7_T96_B3_d,96,Blank,d,B3,Blank,Blank,Blank,Blank,Blank,3,B3_d,True Sample,9.6,70983,14104
+G7_T96_B4_a,96,Blank,a,B4,Blank,Blank,Blank,Blank,Blank,4,B4_a,True Sample,13,69596,12892
+G7_T96_B4_b,96,Blank,b,B4,Blank,Blank,Blank,Blank,Blank,4,B4_b,True Sample,15.2,57600,10953
+G7_T96_B4_c,96,Blank,c,B4,Blank,Blank,Blank,Blank,Blank,4,B4_c,True Sample,12.4,62143,12013
+G7_T96_B4_d,96,Blank,d,B4,Blank,Blank,Blank,Blank,Blank,4,B4_d,True Sample,10.2,66473,13087
+G7_T96_B5_a,96,Blank,a,B5,Blank,Blank,Blank,Blank,Blank,5,B5_a,True Sample,26.6,62766,12351
+G7_T96_B5_b,96,Blank,b,B5,Blank,Blank,Blank,Blank,Blank,5,B5_b,True Sample,16,77849,15623
+G7_T96_B5_c,96,Blank,c,B5,Blank,Blank,Blank,Blank,Blank,5,B5_c,True Sample,20.1,63550,11128
+G7_T96_B5_d,96,Blank,d,B5,Blank,Blank,Blank,Blank,Blank,5,B5_d,True Sample,11.4,46066,8590
+G7_T96_B6_a,96,Blank,a,B6,Blank,Blank,Blank,Blank,Blank,6,B6_a,True Sample,16.5,50388,9575
+G7_T96_B6_b,96,Blank,b,B6,Blank,Blank,Blank,Blank,Blank,6,B6_b,True Sample,15.3,64808,13449
+G7_T96_B6_c,96,Blank,c,B6,Blank,Blank,Blank,Blank,Blank,6,B6_c,True Sample,19.2,59236,9940
+G7_T96_B6_d,96,Blank,d,B6,Blank,Blank,Blank,Blank,Blank,6,B6_d,True Sample,12.9,64399,11630
+G7_T96_C1_1_a,96,Ciprofloxacin Low,a,C1_1,Ciprofloxacin,Low,Ciprofloxacin Low,Ciprofloxacin,Low,19,C1_1_a,True Sample,2.6,31255,6137
+G7_T96_C1_1_b,96,Ciprofloxacin Low,b,C1_1,Ciprofloxacin,Low,Ciprofloxacin Low,Ciprofloxacin,Low,19,C1_1_b,True Sample,8,63202,6045
+G7_T96_C1_1_c,96,Ciprofloxacin Low,c,C1_1,Ciprofloxacin,Low,Ciprofloxacin Low,Ciprofloxacin,Low,19,C1_1_c,True Sample,6.3,76631,15518
+G7_T96_C1_1_d,96,Ciprofloxacin Low,d,C1_1,Ciprofloxacin,Low,Ciprofloxacin Low,Ciprofloxacin,Low,19,C1_1_d,True Sample,2.8,73914,9960
+G7_T96_C1_2_a,96,Ciprofloxacin Low,a,C1_2,Ciprofloxacin,Low,Ciprofloxacin Low,Ciprofloxacin,Low,20,C1_2_a,True Sample,23.8,70907,9598
+G7_T96_C1_2_b,96,Ciprofloxacin Low,b,C1_2,Ciprofloxacin,Low,Ciprofloxacin Low,Ciprofloxacin,Low,20,C1_2_b,True Sample,26.8,76451,11047
+G7_T96_C1_2_c,96,Ciprofloxacin Low,c,C1_2,Ciprofloxacin,Low,Ciprofloxacin Low,Ciprofloxacin,Low,20,C1_2_c,True Sample,19.7,71811,10472
+G7_T96_C1_2_d,96,Ciprofloxacin Low,d,C1_2,Ciprofloxacin,Low,Ciprofloxacin Low,Ciprofloxacin,Low,20,C1_2_d,True Sample,6.8,85017,6028
+G7_T96_C1_3_a,96,Ciprofloxacin Low,a,C1_3,Ciprofloxacin,Low,Ciprofloxacin Low,Ciprofloxacin,Low,21,C1_3_a,True Sample,6,84167,16214
+G7_T96_C1_3_b,96,Ciprofloxacin Low,b,C1_3,Ciprofloxacin,Low,Ciprofloxacin Low,Ciprofloxacin,Low,21,C1_3_b,True Sample,6.8,82064,16490
+G7_T96_C1_3_c,96,Ciprofloxacin Low,c,C1_3,Ciprofloxacin,Low,Ciprofloxacin Low,Ciprofloxacin,Low,21,C1_3_c,True Sample,3,72380,11641
+G7_T96_C1_3_d,96,Ciprofloxacin Low,d,C1_3,Ciprofloxacin,Low,Ciprofloxacin Low,Ciprofloxacin,Low,21,C1_3_d,True Sample,1.7,53421,7878
+G7_T96_C2_1_a,96,Ciprofloxacin High,a,C2_1,Ciprofloxacin,High,Ciprofloxacin High,Ciprofloxacin,High,22,C2_1_a,True Sample,2.7,83405,6833
+G7_T96_C2_1_b,96,Ciprofloxacin High,b,C2_1,Ciprofloxacin,High,Ciprofloxacin High,Ciprofloxacin,High,22,C2_1_b,True Sample,2.7,47168,2103
+G7_T96_C2_1_c,96,Ciprofloxacin High,c,C2_1,Ciprofloxacin,High,Ciprofloxacin High,Ciprofloxacin,High,22,C2_1_c,True Sample,3.4,87861,9931
+G7_T96_C2_1_d,96,Ciprofloxacin High,d,C2_1,Ciprofloxacin,High,Ciprofloxacin High,Ciprofloxacin,High,22,C2_1_d,True Sample,2.5,63301,10472
+G7_T96_C2_2_a,96,Ciprofloxacin High,a,C2_2,Ciprofloxacin,High,Ciprofloxacin High,Ciprofloxacin,High,23,C2_2_a,True Sample,2.5,66325,11202
+G7_T96_C2_2_b,96,Ciprofloxacin High,b,C2_2,Ciprofloxacin,High,Ciprofloxacin High,Ciprofloxacin,High,23,C2_2_b,True Sample,2.9,62939,6750
+G7_T96_C2_2_c,96,Ciprofloxacin High,c,C2_2,Ciprofloxacin,High,Ciprofloxacin High,Ciprofloxacin,High,23,C2_2_c,True Sample,3.9,65274,6742
+G7_T96_C2_2_d,96,Ciprofloxacin High,d,C2_2,Ciprofloxacin,High,Ciprofloxacin High,Ciprofloxacin,High,23,C2_2_d,True Sample,3.8,90987,10449
+G7_T96_C2_3_a,96,Ciprofloxacin High,a,C2_3,Ciprofloxacin,High,Ciprofloxacin High,Ciprofloxacin,High,24,C2_3_a,True Sample,8.6,72336,3460
+G7_T96_C2_3_b,96,Ciprofloxacin High,b,C2_3,Ciprofloxacin,High,Ciprofloxacin High,Ciprofloxacin,High,24,C2_3_b,True Sample,6.7,72272,3749
+G7_T96_C2_3_c,96,Ciprofloxacin High,c,C2_3,Ciprofloxacin,High,Ciprofloxacin High,Ciprofloxacin,High,24,C2_3_c,True Sample,12.9,58941,6779
+G7_T96_C2_3_d,96,Ciprofloxacin High,d,C2_3,Ciprofloxacin,High,Ciprofloxacin High,Ciprofloxacin,High,24,C2_3_d,True Sample,6.6,69580,3698
+G7_T96_M1_1_a,96,Mixture Low,a,M1_1,Mixture,Low,Mixture Low,Mixture,Low,25,M1_1_a,True Sample,2.5,83398,5532
+G7_T96_M1_1_b,96,Mixture Low,b,M1_1,Mixture,Low,Mixture Low,Mixture,Low,25,M1_1_b,True Sample,4,58338,4555
+G7_T96_M1_1_c,96,Mixture Low,c,M1_1,Mixture,Low,Mixture Low,Mixture,Low,25,M1_1_c,True Sample,2.1,48314,9507
+G7_T96_M1_1_d,96,Mixture Low,d,M1_1,Mixture,Low,Mixture Low,Mixture,Low,25,M1_1_d,True Sample,1.8,56149,7159
+G7_T96_M1_2_a,96,Mixture Low,a,M1_2,Mixture,Low,Mixture Low,Mixture,Low,26,M1_2_a,True Sample,14,65276,11578
+G7_T96_M1_2_b,96,Mixture Low,b,M1_2,Mixture,Low,Mixture Low,Mixture,Low,26,M1_2_b,True Sample,2.7,57245,9708
+G7_T96_M1_2_c,96,Mixture Low,c,M1_2,Mixture,Low,Mixture Low,Mixture,Low,26,M1_2_c,True Sample,2.4,63023,7617
+G7_T96_M1_2_d,96,Mixture Low,d,M1_2,Mixture,Low,Mixture Low,Mixture,Low,26,M1_2_d,True Sample,3,31934,3339
+G7_T96_M1_3_a,96,Mixture Low,a,M1_3,Mixture,Low,Mixture Low,Mixture,Low,27,M1_3_a,True Sample,4.5,64156,9809
+G7_T96_M1_3_b,96,Mixture Low,b,M1_3,Mixture,Low,Mixture Low,Mixture,Low,27,M1_3_b,True Sample,5.2,72960,12081
+G7_T96_M1_3_c,96,Mixture Low,c,M1_3,Mixture,Low,Mixture Low,Mixture,Low,27,M1_3_c,True Sample,3.4,56958,6423
+G7_T96_M1_3_d,96,Mixture Low,d,M1_3,Mixture,Low,Mixture Low,Mixture,Low,27,M1_3_d,True Sample,9.1,89642,22896
+G7_T96_M2_1_a,96,Mixture High,a,M2_1,Mixture,High,Mixture High,Mixture,High,28,M2_1_a,True Sample,2.013,59525,3516
+G7_T96_M2_1_c,96,Mixture High,c,M2_1,Mixture,High,Mixture High,Mixture,High,28,M2_1_c,True Sample,2.334,75862,12149
+G7_T96_M2_1_d,96,Mixture High,d,M2_1,Mixture,High,Mixture High,Mixture,High,28,M2_1_d,True Sample,1.86,49738,3598
+G7_T96_M2_2_a,96,Mixture High,a,M2_2,Mixture,High,Mixture High,Mixture,High,29,M2_2_a,True Sample,3.274,66942,5941
+G7_T96_M2_2_b,96,Mixture High,b,M2_2,Mixture,High,Mixture High,Mixture,High,29,M2_2_b,True Sample,1.972,48307,4258
+G7_T96_M2_2_c,96,Mixture High,c,M2_2,Mixture,High,Mixture High,Mixture,High,29,M2_2_c,True Sample,4.891,46298,1938
+G7_T96_M2_2_d,96,Mixture High,d,M2_2,Mixture,High,Mixture High,Mixture,High,29,M2_2_d,True Sample,12.116,93266,1569
+G7_T96_M2_3_a,96,Mixture High,a,M2_3,Mixture,High,Mixture High,Mixture,High,30,M2_3_a,True Sample,2.505,61641,5616
+G7_T96_M2_3_b,96,Mixture High,b,M2_3,Mixture,High,Mixture High,Mixture,High,30,M2_3_b,True Sample,2.306,44066,2734
+G7_T96_M2_3_c,96,Mixture High,c,M2_3,Mixture,High,Mixture High,Mixture,High,30,M2_3_c,True Sample,1.93,136282,19803
+G7_T96_M2_3_d,96,Mixture High,d,M2_3,Mixture,High,Mixture High,Mixture,High,30,M2_3_d,True Sample,3.218,57460,3125
+G7_T96_S1_1_a,96,Streptomycin Low,a,S1_1,Streptomycin,Low,Streptomycin Low,Streptomycin,Low,13,S1_1_a,True Sample,3.8,58442,2035
+G7_T96_S1_1_b,96,Streptomycin Low,b,S1_1,Streptomycin,Low,Streptomycin Low,Streptomycin,Low,13,S1_1_b,True Sample,4.8,30532,6199
+G7_T96_S1_1_c,96,Streptomycin Low,c,S1_1,Streptomycin,Low,Streptomycin Low,Streptomycin,Low,13,S1_1_c,True Sample,16.6,57673,6739
+G7_T96_S1_1_d,96,Streptomycin Low,d,S1_1,Streptomycin,Low,Streptomycin Low,Streptomycin,Low,13,S1_1_d,True Sample,1.9,26837,5108
+G7_T96_S1_2_a,96,Streptomycin Low,a,S1_2,Streptomycin,Low,Streptomycin Low,Streptomycin,Low,14,S1_2_a,True Sample,7,54586,4042
+G7_T96_S1_2_b,96,Streptomycin Low,b,S1_2,Streptomycin,Low,Streptomycin Low,Streptomycin,Low,14,S1_2_b,True Sample,2.1,43896,6291
+G7_T96_S1_2_c,96,Streptomycin Low,c,S1_2,Streptomycin,Low,Streptomycin Low,Streptomycin,Low,14,S1_2_c,True Sample,3,21557,2805
+G7_T96_S1_2_d,96,Streptomycin Low,d,S1_2,Streptomycin,Low,Streptomycin Low,Streptomycin,Low,14,S1_2_d,True Sample,20.9,37796,6149
+G7_T96_S1_3_a,96,Streptomycin Low,a,S1_3,Streptomycin,Low,Streptomycin Low,Streptomycin,Low,15,S1_3_a,True Sample,21.2,55467,4478
+G7_T96_S1_3_b,96,Streptomycin Low,b,S1_3,Streptomycin,Low,Streptomycin Low,Streptomycin,Low,15,S1_3_b,True Sample,9.8,41754,5291
+G7_T96_S1_3_c,96,Streptomycin Low,c,S1_3,Streptomycin,Low,Streptomycin Low,Streptomycin,Low,15,S1_3_c,True Sample,8.9,25496,4805
+G7_T96_S1_3_d,96,Streptomycin Low,d,S1_3,Streptomycin,Low,Streptomycin Low,Streptomycin,Low,15,S1_3_d,True Sample,12,61249,9716
+G7_T96_S2_1_a,96,Streptomycin High,a,S2_1,Streptomycin,High,Streptomycin High,Streptomycin,High,16,S2_1_a,True Sample,8.4,79253,11982
+G7_T96_S2_1_b,96,Streptomycin High,b,S2_1,Streptomycin,High,Streptomycin High,Streptomycin,High,16,S2_1_b,True Sample,15.3,70617,9256
+G7_T96_S2_1_c,96,Streptomycin High,c,S2_1,Streptomycin,High,Streptomycin High,Streptomycin,High,16,S2_1_c,True Sample,2.5,60089,6735
+G7_T96_S2_1_d,96,Streptomycin High,d,S2_1,Streptomycin,High,Streptomycin High,Streptomycin,High,16,S2_1_d,True Sample,3.8,70879,11389
+G7_T96_S2_2_a,96,Streptomycin High,a,S2_2,Streptomycin,High,Streptomycin High,Streptomycin,High,17,S2_2_a,True Sample,5.8,66644,11825
+G7_T96_S2_2_b,96,Streptomycin High,b,S2_2,Streptomycin,High,Streptomycin High,Streptomycin,High,17,S2_2_b,True Sample,17.3,73082,11509
+G7_T96_S2_2_c,96,Streptomycin High,c,S2_2,Streptomycin,High,Streptomycin High,Streptomycin,High,17,S2_2_c,True Sample,9.6,60976,9246
+G7_T96_S2_2_d,96,Streptomycin High,d,S2_2,Streptomycin,High,Streptomycin High,Streptomycin,High,17,S2_2_d,True Sample,11.3,46269,7586
+G7_T96_S2_3_a,96,Streptomycin High,a,S2_3,Streptomycin,High,Streptomycin High,Streptomycin,High,18,S2_3_a,True Sample,8.7,72624,12220
+G7_T96_S2_3_b,96,Streptomycin High,b,S2_3,Streptomycin,High,Streptomycin High,Streptomycin,High,18,S2_3_b,True Sample,9.7,81498,11978
+G7_T96_S2_3_c,96,Streptomycin High,c,S2_3,Streptomycin,High,Streptomycin High,Streptomycin,High,18,S2_3_c,True Sample,12.3,59855,8970
+G7_T96_S2_3_d,96,Streptomycin High,d,S2_3,Streptomycin,High,Streptomycin High,Streptomycin,High,18,S2_3_d,True Sample,15.1,75080,13131
+NC_10_1,NA,NA,NA,NA,Negative Control,Blank,NA,Negative Control,Blank,NA,NA_NA,Negative Control,1.2,19944,4109
+NC_10_2,NA,NA,NA,NA,Negative Control,Blank,NA,Negative Control,Blank,NA,NA_NA,Negative Control,0.4,4131,732
+NC_10_3,NA,NA,NA,NA,Negative Control,Blank,NA,Negative Control,Blank,NA,NA_NA,Negative Control,0.5,6265,786
+NC_11_1,NA,NA,NA,NA,Negative Control,Blank,NA,Negative Control,Blank,NA,NA_NA,Negative Control,0.6,11734,2624
+NC_11_2,NA,NA,NA,NA,Negative Control,Blank,NA,Negative Control,Blank,NA,NA_NA,Negative Control,1.3,22671,2788
+NC_11_3,NA,NA,NA,NA,Negative Control,Blank,NA,Negative Control,Blank,NA,NA_NA,Negative Control,0.3,1885,429
+NC_12_1,NA,NA,NA,NA,Negative Control,Blank,NA,Negative Control,Blank,NA,NA_NA,Negative Control,0.4,2688,697
+NC_12_2,NA,NA,NA,NA,Negative Control,Blank,NA,Negative Control,Blank,NA,NA_NA,Negative Control,0.5,2152,566
+NC_12_3,NA,NA,NA,NA,Negative Control,Blank,NA,Negative Control,Blank,NA,NA_NA,Negative Control,0.4,4207,931
+NC_13_1,NA,NA,NA,NA,Negative Control,Blank,NA,Negative Control,Blank,NA,NA_NA,Negative Control,0.2,1401,350
+NC_13_2,NA,NA,NA,NA,Negative Control,Blank,NA,Negative Control,Blank,NA,NA_NA,Negative Control,0.2,1550,301
+NC_13_3,NA,NA,NA,NA,Negative Control,Blank,NA,Negative Control,Blank,NA,NA_NA,Negative Control,0.2,886,153
+NC_7_1,NA,NA,NA,NA,Negative Control,Blank,NA,Negative Control,Blank,NA,NA_NA,Negative Control,0.164,759,222
+NC_7_2,NA,NA,NA,NA,Negative Control,Blank,NA,Negative Control,Blank,NA,NA_NA,Negative Control,0.298,739,171
+NC_7_3,NA,NA,NA,NA,Negative Control,Blank,NA,Negative Control,Blank,NA,NA_NA,Negative Control,0.196,731,193
+NC_8_1,NA,NA,NA,NA,Negative Control,Blank,NA,Negative Control,Blank,NA,NA_NA,Negative Control,0.207,595,136
+NC_8_2,NA,NA,NA,NA,Negative Control,Blank,NA,Negative Control,Blank,NA,NA_NA,Negative Control,0.291,2061,537
+NC_8_3,NA,NA,NA,NA,Negative Control,Blank,NA,Negative Control,Blank,NA,NA_NA,Negative Control,0.58,7555,1301
+NC_9_1,NA,NA,NA,NA,Negative Control,Blank,NA,Negative Control,Blank,NA,NA_NA,Negative Control,0.4,4568,987
+NC_9_2,NA,NA,NA,NA,Negative Control,Blank,NA,Negative Control,Blank,NA,NA_NA,Negative Control,0.5,6406,1573
+NC_9_3,NA,NA,NA,NA,Negative Control,Blank,NA,Negative Control,Blank,NA,NA_NA,Negative Control,0.7,9779,1687
