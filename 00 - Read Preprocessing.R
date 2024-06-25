@@ -31,9 +31,6 @@ sampleNames_G7 <- gsub("_S\\d+\\d?\\d?\\d?_R1_001", "", sampleNames_G7)
 filtFs_G7 <- file.path(path_G7, "filterAndTrim", paste0(sampleNames_G7, "_F_filt.fastq.gz"))
 filtRs_G7 <- file.path(path_G7, "filterAndTrim", paste0(sampleNames_G7, "_R_filt.fastq.gz"))
 
-
-
-
 ## Filter and Trim ====
 out_G7 <- filterAndTrim(fnFs_G7, filtFs_G7, fnRs_G7, filtRs_G7, truncLen = c(245, 230),
                         maxN=0, maxEE=c(2,2), truncQ=2, rm.phix=TRUE,
@@ -57,7 +54,6 @@ errR_G7<-learnErrors(filtRs_G7,multithread = FALSE, nbases = 5e8)
 #500,388,000  total bases in 2,175,600 reads from 88 samples samples will be used for learning the error rates.
 saveRDS(errR_G7, here::here("Data/00 - Read Preprocessing - Output/errR_G7.rds"))
 
-
 ## Ensure sample naming is consistent
 names(filtFs_G7)<-sampleNames_G7
 names(filtRs_G7)<-sampleNames_G7
@@ -68,7 +64,6 @@ saveRDS(dadaForward_G7, here::here("/Data/00 - Read Preprocessing - Output/dadaF
 
 dadaReverse_G7 <- dada(filtRs_G7, err=errR_G7, multithread=FALSE)
 saveRDS(dadaReverse_G7, here::here("/Data/00 - Read Preprocessing - Output/dadaReverse_G7.rds"))
-
 
 ## Create contigs and sequence table ====
 contigs_G7 <- mergePairs(dadaForward_G7, filtFs_G7, dadaReverse_G7, filtRs_G7)
@@ -89,7 +84,6 @@ sum(seq_table_G7)
 ## Save output
 saveRDS(seq_table_G7, here::here("/Data/00 - Read Preprocessing - Output/seq_table_G7.rds"))
 
-
 ## Remove chimeras ====
 seq_table_nochimeri_G7 <- removeBimeraDenovo(seq_table_G7, method="consensus", multithread=TRUE, verbose=TRUE) 
 dim(seq_table_nochimeri_G7) 
@@ -97,16 +91,11 @@ sum(seq_table_G7) - sum(seq_table_nochimeri_G7)
 
 saveRDS(seq_table_nochimeri_G7, here::here("/Data/00 - Read Preprocessing - Output/seq_table_nochimeri_G7.rds"))
 
-
 ## Assign taxonomy ====
 taxa_G7 <- assignTaxonomy(seq_table_nochimeri_G7, here::here("Data/silva_nr99_v138.1_train_set.fa.gz"), multithread=FALSE)
 taxa_G7 <- addSpecies(taxa_G7, here::here("Data/silva_species_assignment_v138.1.fa.gz"))
 
 saveRDS(taxa_G7, here::here("Data/00 - Read Preprocessing - Output/taxa_G7.rds")) 
-
-
-
-
 
 ## Remove off-target sequences ====
 ### New sequence table (no chloroplast)
@@ -147,8 +136,6 @@ taxonomy_noNA_G7<- taxonomy_nomito_G7[!is.NA_G7,]
 dim(taxonomy_noNA_G7)
 saveRDS(taxonomy_noNA_G7, here::here("/Data/00 - Read Preprocessing - Output/taxonomy_noNA_G7.rds"))
 
-
-
 ## Assess total number of reads removed and ASV frequency ====
 sum(seq_table_noNA_G7) # 6,425,441 reads left after quality control
 dim(seq_table_noNA_G7) # 4246 contigs left after quality control
@@ -157,8 +144,6 @@ summary(colSums(seq_table_noNA_G7))
 summary(rowSums(seq_table_noNA_G7)) # Minimum reads in a sample is 136 
 
 sort(rowSums(seq_table_noNA_G7)) # Sample with 136 reads is a negative control 
-
-
 
 ## Tracking reads removed at each step ====
 getN <- function(x) sum(getUniques(x))
