@@ -181,4 +181,3 @@ librarySize_df <- data.frame(track_G7$Samples, track_G7$input, track_G7$noNA.phy
 ### Rename columns
 colnames(librarySize_df) <- c("Samples", "PreQC", "PostQC")
 readr::write_csv(librarySize_df, here::here("Data/00 - Read Preprocessing - Output/librarySize.csv"))
-
