@@ -1,0 +1,10 @@
+# Align sequences in mothur
+## DNA sequence and ASV were saved as CSV and converted to fasta and used here
+
+qrsh -pe thread 8 -q micro
+mothur
+align.seqs(fasta = taxTable_ps.noneg.fasta, reference = silva.nr_v138_1.align, flip = t, processors = 46)
+# exit mothur
+
+# Build tree
+FastTreeMP -nt taxTable_ps.noneg.align > treeOutput.nwk
