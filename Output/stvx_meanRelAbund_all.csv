@@ -1,0 +1,101 @@
+ASV,MeanRelAbund,SD,Treatment,Time,Taxon,SamplesCombined,Source
+ASV1,21.42,14.6665006051205,Blank,0,Phaeobacter,6,Water
+ASV2,0.97,1.048026717216694,Blank,0,Hyphomonas,6,Water
+ASV3,0.51,0.3865229618017538,Blank,0,Hirschia,6,Water
+ASV4,14.543333333333333,8.238052358820418,Blank,0,Alteromonas,6,Water
+ASV5,0,0,Blank,0,Tenacibaculum,6,Water
+ASV6,0,0,Blank,0,Rhodobacteraceae Family,6,Water
+ASV7,0.5033333333333333,0.5701111002836786,Blank,0,Winogradskyella,6,Water
+ASV8,0.019999999999999997,0.04898979485566356,Blank,0,Ponticaulis,6,Water
+ASV9,0.2866666666666667,0.2957476401709178,Blank,0,Muricauda,6,Water
+ASV10,4.246666666666667,1.6786025934290305,Blank,0,Candidatus Peribacteria Order,6,Water
+ASV1,5.576,1.9092092604007553,Blank,96,Phaeobacter,5,Water
+ASV2,1.304,0.5600714240166159,Blank,96,Hyphomonas,5,Water
+ASV3,1.7399999999999998,1.0493807697875925,Blank,96,Hirschia,5,Water
+ASV4,2.496,2.1601574016723872,Blank,96,Alteromonas,5,Water
+ASV5,7.0040000000000004,6.880950515735454,Blank,96,Tenacibaculum,5,Water
+ASV6,12.68,15.745456487507752,Blank,96,Rhodobacteraceae Family,5,Water
+ASV7,0.544,0.5931947403677817,Blank,96,Winogradskyella,5,Water
+ASV8,1.188,1.596533745337066,Blank,96,Ponticaulis,5,Water
+ASV9,0.27999999999999997,0.3277193921634788,Blank,96,Muricauda,5,Water
+ASV10,1.2959999999999998,0.699628472833975,Blank,96,Candidatus Peribacteria Order,5,Water
+ASV1,0.26,0.22715633383201092,Mixture Low,96,Phaeobacter,3,Water
+ASV2,0.08666666666666667,0.15011106998930268,Mixture Low,96,Hyphomonas,3,Water
+ASV3,1.9866666666666668,1.7215496894755415,Mixture Low,96,Hirschia,3,Water
+ASV4,0.04666666666666667,0.08082903768654762,Mixture Low,96,Alteromonas,3,Water
+ASV5,0,0,Mixture Low,96,Tenacibaculum,3,Water
+ASV6,0,0,Mixture Low,96,Rhodobacteraceae Family,3,Water
+ASV7,0,0,Mixture Low,96,Winogradskyella,3,Water
+ASV8,9.433333333333332,8.935464919819971,Mixture Low,96,Ponticaulis,3,Water
+ASV9,12.213333333333333,7.797495324354696,Mixture Low,96,Muricauda,3,Water
+ASV10,1.1733333333333333,0.2203028218914441,Mixture Low,96,Candidatus Peribacteria Order,3,Water
+ASV1,1.04,0.6502307282803543,Mixture High,96,Phaeobacter,3,Water
+ASV2,0.16,0.13999999999999999,Mixture High,96,Hyphomonas,3,Water
+ASV3,0.07333333333333333,0.12701705922171766,Mixture High,96,Hirschia,3,Water
+ASV4,0.11333333333333334,0.03055050463303893,Mixture High,96,Alteromonas,3,Water
+ASV5,0.04666666666666667,0.08082903768654762,Mixture High,96,Tenacibaculum,3,Water
+ASV6,0,0,Mixture High,96,Rhodobacteraceae Family,3,Water
+ASV7,0,0,Mixture High,96,Winogradskyella,3,Water
+ASV8,0.019999999999999997,0.034641016151377546,Mixture High,96,Ponticaulis,3,Water
+ASV9,0.12666666666666668,0.11372481406154654,Mixture High,96,Muricauda,3,Water
+ASV10,6.446666666666667,1.3460064388157043,Mixture High,96,Candidatus Peribacteria Order,3,Water
+ASV1,0.13999999999999999,0.12489995996796796,Ampicillin Low,96,Phaeobacter,3,Water
+ASV2,1.1400000000000001,1.3159027319676786,Ampicillin Low,96,Hyphomonas,3,Water
+ASV3,6.319999999999999,5.57842271614477,Ampicillin Low,96,Hirschia,3,Water
+ASV4,2.1333333333333333,2.842346448505765,Ampicillin Low,96,Alteromonas,3,Water
+ASV5,0.18,0.15620499351813308,Ampicillin Low,96,Tenacibaculum,3,Water
+ASV6,0,0,Ampicillin Low,96,Rhodobacteraceae Family,3,Water
+ASV7,0,0,Ampicillin Low,96,Winogradskyella,3,Water
+ASV8,16.14666666666667,26.66132279789083,Ampicillin Low,96,Ponticaulis,3,Water
+ASV9,1.5266666666666666,1.5610680104765882,Ampicillin Low,96,Muricauda,3,Water
+ASV10,1.6933333333333336,1.81926725176191,Ampicillin Low,96,Candidatus Peribacteria Order,3,Water
+ASV1,0.3933333333333333,0.46057934531775663,Ampicillin High,96,Phaeobacter,3,Water
+ASV2,1.1066666666666665,0.9790471558272019,Ampicillin High,96,Hyphomonas,3,Water
+ASV3,0,0,Ampicillin High,96,Hirschia,3,Water
+ASV4,0.04666666666666667,0.08082903768654762,Ampicillin High,96,Alteromonas,3,Water
+ASV5,0.15333333333333335,0.2655811238272278,Ampicillin High,96,Tenacibaculum,3,Water
+ASV6,0,0,Ampicillin High,96,Rhodobacteraceae Family,3,Water
+ASV7,0,0,Ampicillin High,96,Winogradskyella,3,Water
+ASV8,2.526666666666667,3.1316023587507615,Ampicillin High,96,Ponticaulis,3,Water
+ASV9,0,0,Ampicillin High,96,Muricauda,3,Water
+ASV10,3.3666666666666663,3.134921583282959,Ampicillin High,96,Candidatus Peribacteria Order,3,Water
+ASV1,6.866666666666667,7.507338631854389,Streptomycin Low,96,Phaeobacter,3,Water
+ASV2,0,0,Streptomycin Low,96,Hyphomonas,3,Water
+ASV3,0.76,1.147519063022484,Streptomycin Low,96,Hirschia,3,Water
+ASV4,0.12,0.2078460969082653,Streptomycin Low,96,Alteromonas,3,Water
+ASV5,5.873333333333334,5.233061564068717,Streptomycin Low,96,Tenacibaculum,3,Water
+ASV6,12.646666666666667,18.759171978883646,Streptomycin Low,96,Rhodobacteraceae Family,3,Water
+ASV7,4.4799999999999995,4.6704175402205745,Streptomycin Low,96,Winogradskyella,3,Water
+ASV8,0.33999999999999997,0.48867166891482455,Streptomycin Low,96,Ponticaulis,3,Water
+ASV9,1.7733333333333334,1.6487975416446172,Streptomycin Low,96,Muricauda,3,Water
+ASV10,0.6466666666666666,0.4206344414492629,Streptomycin Low,96,Candidatus Peribacteria Order,3,Water
+ASV1,0.14666666666666664,0.0832666399786453,Streptomycin High,96,Phaeobacter,3,Water
+ASV2,0,0,Streptomycin High,96,Hyphomonas,3,Water
+ASV3,1.06,1.0912378292562992,Streptomycin High,96,Hirschia,3,Water
+ASV4,1.86,1.5764517119150845,Streptomycin High,96,Alteromonas,3,Water
+ASV5,11.72,6.893678263452682,Streptomycin High,96,Tenacibaculum,3,Water
+ASV6,0,0,Streptomycin High,96,Rhodobacteraceae Family,3,Water
+ASV7,9.32,8.310403118982858,Streptomycin High,96,Winogradskyella,3,Water
+ASV8,0.32666666666666666,0.4196824196143238,Streptomycin High,96,Ponticaulis,3,Water
+ASV9,6.446666666666667,5.354263099001891,Streptomycin High,96,Muricauda,3,Water
+ASV10,0.7733333333333333,0.355715241918776,Streptomycin High,96,Candidatus Peribacteria Order,3,Water
+ASV1,0.36,0.09165151389911683,Ciprofloxacin Low,96,Phaeobacter,3,Water
+ASV2,4.466666666666667,1.8417745066466016,Ciprofloxacin Low,96,Hyphomonas,3,Water
+ASV3,6.959999999999999,7.365134078888177,Ciprofloxacin Low,96,Hirschia,3,Water
+ASV4,0,0,Ciprofloxacin Low,96,Alteromonas,3,Water
+ASV5,4.446666666666667,3.9053979737452282,Ciprofloxacin Low,96,Tenacibaculum,3,Water
+ASV6,1.2133333333333334,1.139180992350791,Ciprofloxacin Low,96,Rhodobacteraceae Family,3,Water
+ASV7,14.933333333333335,13.999433321864615,Ciprofloxacin Low,96,Winogradskyella,3,Water
+ASV8,2.2800000000000002,3.312763197090912,Ciprofloxacin Low,96,Ponticaulis,3,Water
+ASV9,7.8133333333333335,10.460599090555633,Ciprofloxacin Low,96,Muricauda,3,Water
+ASV10,1.0933333333333333,0.21007935008784967,Ciprofloxacin Low,96,Candidatus Peribacteria Order,3,Water
+ASV1,0.06666666666666667,0.05773502691896258,Ciprofloxacin High,96,Phaeobacter,3,Water
+ASV2,30.633333333333333,2.3826315983242834,Ciprofloxacin High,96,Hyphomonas,3,Water
+ASV3,20.419999999999998,4.526234638195416,Ciprofloxacin High,96,Hirschia,3,Water
+ASV4,0.20666666666666667,0.35795716689756796,Ciprofloxacin High,96,Alteromonas,3,Water
+ASV5,0,0,Ciprofloxacin High,96,Tenacibaculum,3,Water
+ASV6,0,0,Ciprofloxacin High,96,Rhodobacteraceae Family,3,Water
+ASV7,0,0,Ciprofloxacin High,96,Winogradskyella,3,Water
+ASV8,0.019999999999999997,0.034641016151377546,Ciprofloxacin High,96,Ponticaulis,3,Water
+ASV9,0,0,Ciprofloxacin High,96,Muricauda,3,Water
+ASV10,1.5066666666666666,0.70720105580615,Ciprofloxacin High,96,Candidatus Peribacteria Order,3,Water
