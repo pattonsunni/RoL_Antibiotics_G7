@@ -7,6 +7,7 @@ set.seed(123)
 
 ## Load libraries ====
 library(picante)
+library(phyloseq)
 library(car)
 library(stats)
 library(ggpubr)
@@ -17,6 +18,8 @@ library(lme4)
 library(lmerTest)
 library(emmeans)
 library(pbkrtest)
+library(microViz)
+
 
 ## Load data ====
 readRDS(here::here("Data/05 - Phyloseq - Output/ps.rare.rds")) -> ps.rare
@@ -179,7 +182,8 @@ plot_shan <- plot_shan + geom_point(aes(color = Treatment), alpha = 0.5, positio
 plot_shan <- plot_shan + xlab("Time (Hours)") + ylab("Shannon") 
 plot_shan <- plot_shan + guides(color = guide_legend(title = "Treatment")) + theme(legend.position = "none") + 
   stat_pvalue_manual(subset(pairwise_stats, Metric == "Shannon"), label = "p.adj.signif", hide.ns = TRUE) + 
-  facet_wrap(~factor(Treatment, levels = c("Blank","Mixture Low", "Mixture High", "Ampicillin Low", "Streptomycin Low", "Ciprofloxacin Low","Ampicillin High","Streptomycin High","Ciprofloxacin High")))
+  facet_wrap(~factor(Treatment, levels = c("Blank","Mixture Low", "Mixture High", "Ampicillin Low", "Streptomycin Low", 
+                                           "Ciprofloxacin Low","Ampicillin High","Streptomycin High","Ciprofloxacin High"))) + theme(strip.text = element_text(face = "bold", size = 12))
 
 # Change y.position for significance bars 
 ## Ampicillin low 
@@ -194,10 +198,15 @@ pairwise_stats$y.position[43] <- 3.6
 # Rerun plot
 
 ggplot2::ggsave(here::here("Data/07 - Alpha Diversity - Output/plot_shannon.png"), plot_shan,
-                height = 450, width = 600, units = "mm",
+                height = 450, width = 550, units = "mm",
                 scale = 0.5, dpi = 1000)
 
 ## Plot observed
+alphaDiv$Treatment <- factor(alphaDiv$Treatment, c("Blank", "Mixture Low", "Mixture High",
+                                                   "Ampicillin Low", "Streptomycin Low", "Ciprofloxacin Low",
+                                                   "Ampicillin High", "Streptomycin High", "Ciprofloxacin High"), 
+                            order = TRUE)
+
 plot_obs <- ggplot(alphaDiv, aes(x = as.factor(Time), y = Observed, color = Treatment)) + 
   scale_color_manual(values = c("#666666", "#FF7856", "#FF3D3D", "#9999FF","#3FA0FF", "#00BB00", "#BC71BB", "#006DDB", "#008600")) +
   geom_boxplot(lwd = 1.1, outlier.color = "NA") + stat_summary(fun = mean, geom = "line", mapping = aes(group = Treatment, color = Treatment),
@@ -213,16 +222,17 @@ plot_obs <- plot_obs + guides(color = guide_legend(title = "Treatment")) + theme
 
 # Change y.position for significance bars 
 ## Mixture High
-pairwise_stats$y.position[114] <- 50
+pairwise_stats$y.position[144] <- 55
+pairwise_stats$y.position[149] <- 50
 ## Ampicillin Low
-pairwise_stats$y.position[123] <- 50
+pairwise_stats$y.position[103] <- 50
 ## Streptomycin Low
-pairwise_stats$y.position[137] <- 55
-pairwise_stats$y.position[139] <- 60
-pairwise_stats$y.position[140] <- 65
+pairwise_stats$y.position[177] <- 55
+pairwise_stats$y.position[179] <- 60
+pairwise_stats$y.position[180] <- 65
 ## Ciprofloxacin High
-pairwise_stats$y.position[173] <- 60
-pairwise_stats$y.position[174] <- 65
+pairwise_stats$y.position[123] <- 60
+pairwise_stats$y.position[124] <- 65
 # Rerun plot
 
 ## Plot inverse simpson
@@ -241,19 +251,19 @@ plot_invSimp <- plot_invSimp + guides(color = guide_legend(title = "Treatment"))
 
 # Change y.position for significance bars 
 ## Blank 
-pairwise_stats$y.position[184] <- 25
+pairwise_stats$y.position[204] <- 25
 ## Mixture Low
-pairwise_stats$y.position[192] <- 25
+pairwise_stats$y.position[242] <- 25
 ## Ampicillin Low
-pairwise_stats$y.position[211] <- 20
-pairwise_stats$y.position[212] <- 23
-pairwise_stats$y.position[214] <- 25
+pairwise_stats$y.position[191] <- 20
+pairwise_stats$y.position[192] <- 23
+pairwise_stats$y.position[194] <- 25
 ## Streptomycin Low
-pairwise_stats$y.position[221] <- 20
-pairwise_stats$y.position[222] <- 23
-pairwise_stats$y.position[223] <- 25
+pairwise_stats$y.position[261] <- 20
+pairwise_stats$y.position[262] <- 23
+pairwise_stats$y.position[263] <- 25
 ## Ciprofloxacin Low
-pairwise_stats$y.position[238] <- 25
+pairwise_stats$y.position[228] <- 25
 # Rerun plot
 
 ## Plot PD
@@ -272,10 +282,12 @@ plot_pd <- plot_pd + guides(color = guide_legend(title = "Treatment")) + theme(l
 
 # Change y.position for significance bars 
 ## Mixture High
-pairwise_stats$y.position[294] <- 6.5
-pairwise_stats$y.position[300] <- 5.5
+pairwise_stats$y.position[324] <- 6.5
+pairwise_stats$y.position[330] <- 5.5
 ## Ampicillin Low
-pairwise_stats$y.position[303] <- 5.5
+pairwise_stats$y.position[283] <- 5.5
+## Ampicillin High
+pairwise_stats$y.position[276] <- 5.5
 # Rerun plot
 
 
