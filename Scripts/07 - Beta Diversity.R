@@ -6,6 +6,7 @@
 set.seed(123)
 
 ## Load libraries ====
+library(devtools)
 library(microViz)
 library(pairwiseAdonis)
 library(phyloseq)
@@ -787,7 +788,7 @@ df_disp$Antibiotic[df_disp$Antibiotic == "Ciprofloxacin Low" |
                      df_disp$Antibiotic == "Ciprofloxacin High"] <- "Ciprofloxacin"
 
 
-write.csv(df_disp_all, here::here("Data/08 - Beta Diversity - Output/06 - dispersion_dist.csv"))
+write.csv(df_disp, here::here("Data/08 - Beta Diversity - Output/06 - dispersion_dist.csv"))
 
 # Statistics dataframe
 df_disp_stats <- rbind(stats_T0, stats_blankmix, stats_blankamp, stats_blankstrep, stats_blankcip)
@@ -832,6 +833,10 @@ df_disp_stats[84,]$group2 <- 4.25
 
 ## Plot ====
 ## Mixture
+# Set order
+df_disp$Treatment <- factor(df_disp$Treatment, c("Blank", "Mixture Low", "Mixture High"), 
+                                                 order = TRUE)
+
 plot_disp_blankmix <-  ggplot(subset(df_disp, Group == "Mixture"), aes(x = as.factor(Time), y = Distances, color = Treatment))  + 
   geom_boxplot(lwd = 1.25, outlier.colour = "NA") + 
   scale_color_manual(values = c("#666666", "#FF7856", "#FF3D3D"))
@@ -844,6 +849,8 @@ plot_disp_blankmix <- plot_disp_blankmix + theme(axis.text = element_text(face =
   stat_pvalue_manual(subset(df_disp_stats, Group == "Mixture"), label = "p.adj.signif", hide.ns = TRUE)
 
 ## Ampicillin
+df_disp$Treatment <- factor(df_disp$Treatment, c("Blank", "Ampicillin Low", "Ampicillin High"), 
+                            order = TRUE)
 plot_disp_blankamp <-  ggplot(subset(df_disp, Group == "Ampicillin"), aes(x = as.factor(Time), y = Distances, color = Treatment))  + 
   geom_boxplot(lwd = 1.25, outlier.colour = "NA") + 
   scale_color_manual(values = c("#666666", "#9999FF" ,"#BC71BB"))
@@ -859,6 +866,8 @@ plot_disp_blankamp <- plot_disp_blankamp + theme(axis.text = element_text(face =
 df_disp_stats[56,]$y.position <- 10.5
 
 ## Streptomycin
+df_disp$Treatment <- factor(df_disp$Treatment, c("Blank", "Streptomycin Low", "Streptomycin High"), 
+                            order = TRUE)
 plot_disp_blankstrep <-  ggplot(subset(df_disp, Group == "Streptomycin"), aes(x = as.factor(Time), y = Distances, color = Treatment))  + 
   geom_boxplot(lwd = 1.25, outlier.colour = "NA") + 
   scale_color_manual(values = c("#666666", "#3FA0FF", "#006DDB"))
@@ -869,8 +878,13 @@ plot_disp_blankstrep <- plot_disp_blankstrep + theme(axis.text = element_text(fa
                                                  axis.title = element_text(face = "bold", size = 12), title = element_text(face = "bold")) + 
   guides(color = guide_legend(title = "Treatment")) + theme(strip.text = element_text(face = "bold", size = 12)) +
   stat_pvalue_manual(subset(df_disp_stats, Group == "Streptomycin"), label = "p.adj.signif", hide.ns = TRUE)
+### Change group1 and group2 position and run plot again
+df_disp_stats[71,]$group1 <- 3.75
+df_disp_stats[71,]$group2 <- 4
 
 ## Ciprofloxacin
+df_disp$Treatment <- factor(df_disp$Treatment, c("Blank", "Ciprofloxacin Low", "Ciprofloxacin High"), 
+                            order = TRUE)
 plot_disp_blankcip <-  ggplot(subset(df_disp, Group == "Ciprofloxacin"), aes(x = as.factor(Time), y = Distances, color = Treatment))  + 
   geom_boxplot(lwd = 1.25, outlier.colour = "NA") + 
   scale_color_manual(values = c("#666666", "#00BB00", "#008600"))
@@ -897,12 +911,12 @@ PCA_blankamp <- PCA_blankamp + theme(legend.position = "none")
 PCA_blankstrep <- PCA_blankstrep + theme(legend.position = "none") 
 PCA_blankcip <- PCA_blankcip + theme(legend.position = "none")
 
-grid.arrange(PCA_blankmix, PCA_blankamp, PCA_blankstrep, PCA_blankcip, ncol = 1) -> PCA_combined
+PCA_blankmix / PCA_blankamp / PCA_blankstrep / PCA_blankcip -> plot_PCA
 
-grid.arrange(plot_disp_blankmix, plot_disp_blankamp, plot_disp_blankstrep, plot_disp_blankcip, ncol = 1) -> disp_combined
+plot_disp_blankmix / plot_disp_blankamp / plot_disp_blankstrep / plot_disp_blankcip -> plot_disp
 
-grid.arrange(PCA_combined, disp_combined, ncol = 2) -> plot_all
+ggarrange(plot_PCA, plot_disp, ncol = 2) -> plot_comb
 
-ggplot2::ggsave(here::here("Data/08 - Beta Diversity - Output/PCA_disp_final.png"), plot_all,
+ggplot2::ggsave(here::here("Data/08 - Beta Diversity - Output/PCA_disp.png"), plot_comb,
                 height = 450, width = 650, units = "mm",
                 scale = 0.5, dpi = 1000)
