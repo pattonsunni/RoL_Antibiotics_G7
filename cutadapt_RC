@@ -1,7 +1,6 @@
 #!/usr/bin/bash
 
 #cutadapt to remove reverse complements of forward and reverse primers
-
 for r1 in ./../*_R1_*.fastq.gz; do
     r2=${r1/_R1_/_R2_}
     out1=$(basename ${r1})
