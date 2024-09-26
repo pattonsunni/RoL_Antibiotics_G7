@@ -1,1 +1,9 @@
+#!/usr/bin/bash
 
+# cutadapt to remove forward and reverse primers
+for r1 in ./../*_R1_*.fastq.gz; do
+    r2=${r1/_R1_/_R2_}
+    out1=$(basename ${r1})
+    out2=${out1/_R1_/_R2_}
+    cutadapt -a GTGYCAGCMGCCGCGGTAA -A GGACTACNVGGGTWTCTAAT -o ${out1} -p ${out$
+done
