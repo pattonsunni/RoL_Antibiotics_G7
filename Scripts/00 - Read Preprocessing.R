@@ -43,6 +43,7 @@ sum(out_G7[,1])-sum(out_G7[,2])
 
 filter_fun = data.frame(out_G7)
 filter_fun
+ratio = sum(filter_fun$reads.out)/sum(filter_fun$reads.in)
 ratio
 
 ## Learn errors and infer sample sequence ====
