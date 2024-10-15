@@ -9,6 +9,9 @@ library(decontam)
 library(ggplot2)
 library(phyloseq)
 
+## Set seed ===
+set.seed(123)
+
 ## Plot sample library size ====
 df <- as.data.frame(sample_data(ps.All)) 
 df$LibrarySize <- sample_sums(ps.All)
